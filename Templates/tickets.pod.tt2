@@ -1,0 +1,67 @@
+Z<tickets>
+
+[% FOREACH ticket IN tickets %]
+=head1 [% ticket.id %]: [% ticket.asunto %]
+
+
+B<Responsable: > [% ticket.user(ticket.base.owner) %]
+
+C< >
+
+B<Horas Trabajadas: > [% ticket.horas %]
+
+=head2 Asunto 
+
+[% ticket.asunto %]
+
+=head2 Descripción
+
+[% ticket.body.content %] 
+
+[% IF ticket.comentarios.size > 0 %]
+
+=head2 Comentarios 
+
+=over 
+
+[% FOREACH comentario IN ticket.comentarios %]
+
+=item B<[% comentario.creator %]> - B<[% comentario.date %]>
+
+
+[% comentario.content %]
+
+[% END %] [%# End Foreach %]
+
+=back
+
+[% END %] [%# END IF %]
+
+[% IF ticket.adjuntos.size > 0 %]
+
+=head2 Adjuntos
+
+=over
+
+[% FOREACH adjunto IN ticket.adjuntos %]
+
+=item [% adjunto.file_name %]
+
+[% IF adjunto.file_name.match('\.txt') %]
+
+=begin programlisting
+
+   [% adjunto.content %] 
+
+=end programlisting
+
+
+[% END %]
+
+[% END %] [%# END FOREACH ADJUNTOS %]
+
+=back 
+
+[% END %] [%# END IF ADJUNTOS %]
+
+[% END %] [%# END TICKETS%]

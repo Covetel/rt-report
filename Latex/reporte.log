@@ -1,0 +1,4055 @@
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2010.11.22)  12 AUG 2011 01:39
+entering extended mode
+ %&-line parsing enabled.
+**reporte.tex
+(./reporte.tex
+LaTeX2e <2005/12/01>
+Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+(/usr/share/texmf-texlive/tex/latex/koma-script/scrartcl.cls
+Document Class: scrartcl 2006/07/30 v2.95b KOMA-Script document class (article)
+
+(/usr/share/texmf-texlive/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2006/07/30 v2.95b KOMA-Script package (basics and keyval use)
+
+
+(/usr/share/texmf-texlive/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2006/03/28 v2.95 KOMA-Script package (loading files)
+
+Package scrlfile, 2006/03/28 v2.95 KOMA-Script package (loading files)
+                  Copyright (C) Markus Kohm
+
+) (/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+))
+Package scrkbase Info: You've used the obsolete option `oneside'.
+(scrkbase)             \KOMAoptions{twoside=false} will be used instead.
+(scrkbase)             You should do this change too on input line 594.
+
+(/usr/share/texmf-texlive/tex/latex/base/size11.clo
+File: size11.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
+)
+(/usr/share/texmf-texlive/tex/latex/koma-script/typearea.sty
+Package: typearea 2006/07/30 v2.95b KOMA-Script package (type area)
+
+Package typearea, 2006/07/30 v2.95b KOMA-Script package (type area)
+                  Copyright (C) Frank Neukam, 1992-1994
+                  Copyright (C) Markus Kohm, 1994-2002
+
+\ta@bcor=\skip41
+\ta@div=\count79
+Package scrkbase Info: You've used the obsolete option `letterpaper'.
+(scrkbase)             \KOMAoptions{paper=letter} will be used instead.
+(scrkbase)             You should do this change too on input line 419.
+\ta@hblk=\skip42
+\ta@vblk=\skip43
+\ta@temp=\skip44
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 10
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 614.295pt
+(typearea)              \textwidth      = 430.00653pt
+(typearea)              DIV-departure   = -9/100
+(typearea)              \evensidemargin = 19.87424pt
+(typearea)              \oddsidemargin  = 19.87424pt
+(typearea)             \paperheight     = 794.96999pt
+(typearea)              \textheight     = 568.60025pt
+(typearea)              \topmargin      = -30.173pt
+(typearea)              \headheight     = 17.0pt
+(typearea)              \headsep        = 20.40001pt
+(typearea)              \topskip        = 11.0pt
+(typearea)              \footskip       = 47.60002pt
+(typearea)              \baselineskip   = 13.6pt
+(typearea)              on input line 832.
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\abovecaptionskip=\skip45
+\belowcaptionskip=\skip46
+\c@pti@nb@sid@b@x=\box26
+\c@figure=\count86
+\c@table=\count87
+\bibindent=\dimen102
+) (/usr/share/texmf-texlive/tex/latex/geometry/geometry.sty
+Package: geometry 2002/07/08 v3.2 Page Geometry
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@dimlist=\toks15
+)
+(/usr/share/texmf-texlive/tex/latex/base/inputenc.sty
+Package: inputenc 2006/05/05 v1.1b Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+
+(/usr/share/texmf-texlive/tex/latex/base/utf8.def
+File: utf8.def 2006/03/30 v1.1i UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encodingT1
+
+(/usr/share/texmf-texlive/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2006/03/30 v1.1i UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encodingOT1
+
+(/usr/share/texmf-texlive/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2006/03/30 v1.1i UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encodingOMS
+
+(/usr/share/texmf-texlive/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2006/03/30 v1.1i UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/share/texmf-texlive/tex/generic/babel/babel.sty
+Package: babel 2005/11/23 v3.8h The Babel package
+
+(/usr/share/texmf-texlive/tex/generic/babel/spanish.ldf
+Language: spanish.ldf 2005/03/31 v4.2b Spanish support from the babel system
+
+(/usr/share/texmf-texlive/tex/generic/babel/babel.def
+File: babel.def 2005/11/23 v3.8h Babel common definitions
+\babel@savecnt=\count91
+\U@D=\dimen107
+)
+
+Package babel Warning: No hyphenation patterns were loaded for
+(babel)                the language `Spanish'
+(babel)                I will use the patterns loaded for \language=0 instead.
+
+\l@spanish = a dialect from \language0
+\es@quottoks=\toks18
+\es@quotdepth=\count92
+Package babel Info: Making . an active character on input line 509.
+Package babel Info: Making " an active character on input line 540.
+Package babel Info: Making < an active character on input line 641.
+Package babel Info: Making > an active character on input line 642.
+)) (/usr/share/texmf-texlive/tex/latex/tools/array.sty
+Package: array 2005/08/23 v2.4b Tabular extension package (FMi)
+\col@sep=\dimen108
+\extrarowheight=\dimen109
+\NC@list=\toks19
+\extratabsurround=\skip47
+\backup@length=\skip48
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/etc/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2007/01/08 v0.04d Graphics/color for pdfTeX
+\Gread@gobject=\count93
+))
+(/usr/share/texmf-texlive/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2001/02/13 v0.1j Color table columns (DPC)
+\everycr=\toks20
+\minrowclearance=\skip49
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 90.
+)
+\Gin@req@height=\dimen110
+\Gin@req@width=\dimen111
+)
+(/usr/share/texmf-texlive/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2007/02/07 v6.75r Hypertext links for LaTeX
+\@linkdim=\dimen112
+\Hy@linkcounter=\count94
+\Hy@pagecounter=\count95
+
+(/usr/share/texmf-texlive/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2007/02/07 v6.75r Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/etc/texmf/tex/latex/config/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+(/usr/share/texmf-texlive/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2006/08/22 v2.4 Connects package keyval with LaTeX options (
+HO)
+)
+Package hyperref Info: Option `colorlinks' set `false' on input line 2238.
+Package hyperref Info: Hyper figures OFF on input line 2288.
+Package hyperref Info: Link nesting OFF on input line 2293.
+Package hyperref Info: Hyper index ON on input line 2296.
+Package hyperref Info: Plain pages OFF on input line 2303.
+Package hyperref Info: Backreferencing OFF on input line 2308.
+
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 2444.
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
+\Urlmuskip=\muskip10
+Package: url 2005/06/27  ver 3.2  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 2599.
+\Fld@menulength=\count96
+\Field@Width=\dimen113
+\Fld@charsize=\dimen114
+\Choice@toks=\toks21
+\Field@toks=\toks22
+Package hyperref Info: Hyper figures OFF on input line 3102.
+Package hyperref Info: Link nesting OFF on input line 3107.
+Package hyperref Info: Hyper index ON on input line 3110.
+Package hyperref Info: backreferencing OFF on input line 3117.
+Package hyperref Info: Link coloring OFF on input line 3122.
+\Hy@abspage=\count97
+\c@Item=\count98
+\c@Hfootnote=\count99
+)
+*hyperref using default driver hpdftex*
+(/usr/share/texmf-texlive/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2007/02/07 v6.75r Hyperref driver for pdfTeX
+\Fld@listcount=\count100
+)
+(/usr/share/texmf-texlive/tex/latex/koma-script/scrpage2.sty
+Package: scrpage2 2006/03/29 v2.2c LaTeX2e KOMA-Script package
+LaTeX Info: Redefining \pagemark on input line 134.
+)
+(/usr/share/texmf-texlive/tex/latex/lastpage/lastpage.sty
+Package: lastpage 1994/06/25 v0.1b LaTeX2e package for refs to last page number
+ (JPG)
+) (./reporte.aux)
+\openout1 = `reporte.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+-------------------- Geometry parameters
+paper: letterpaper
+landscape: --
+twocolumn: --
+twoside: --
+asymmetric: --
+h-parts: 92.14519pt, 0.7\paperwidth , 92.14519pt (default)
+v-parts: 95.39737pt, 0.7\paperheight , 143.09605pt (default)
+hmarginratio: 1:1
+vmarginratio: 2:3
+lines: --
+heightrounded: --
+bindingoffset: 0.0pt
+truedimen: --
+includehead: --
+includefoot: --
+includemp: --
+driver: pdftex
+-------------------- Page layout dimensions and switches
+\paperwidth  614.295pt
+\paperheight 794.96999pt
+\textwidth  430.00462pt
+\textheight 556.47656pt
+\oddsidemargin  19.8752pt
+\evensidemargin 19.8752pt
+\topmargin  -28.01591pt
+\headheight 17.0pt
+\headsep    34.1433pt
+\footskip   47.60002pt
+\marginparwidth 61.42949pt
+\marginparsep   12.8401pt
+\columnsep  10.0pt
+\skip\footins  10.0pt plus 4.0pt minus 2.0pt
+\hoffset 0.0pt
+\voffset 0.0pt
+\mag 1000
+
+(1in=72.27pt, 1cm=28.45pt)
+-----------------------
+Package hyperref Info: Link coloring OFF on input line 26.
+
+(/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
+Package: nameref 2006/12/27 v2.28 Cross-referencing by name of section
+
+(/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
+Package: refcount 2006/02/20 v3.0 Data extraction from references (HO)
+)
+\c@section@level=\count101
+)
+LaTeX Info: Redefining \ref on input line 26.
+LaTeX Info: Redefining \pageref on input line 26.
+ (./reporte.out)
+(./reporte.out)
+\@outlinefile=\write3
+\openout3 = `reporte.out'.
+
+ (./portada.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 25.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 25.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 25.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./reporte.toc)
+\tf@toc=\write4
+\openout4 = `reporte.toc'.
+
+ (./tickets.tex
+
+! Package inputenc Error: Unicode char \u8:³ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...de Correo de CANTV.NET\item[DescripciÃ³n]
+                                                   El documento se encuentra...
+
+? 
+! You can't use `macro parameter character #' in math mode.
+l.31 200.44.32.12#
+                  53(200.44.32.12) ;; WHEN: Sun Jul 17 15:38:05 2011 ;; MSG ...
+
+? 
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 rcvd: 61        \item
+                           {\bfseries Walter Vargas (walter@covetel.com.ve) ...
+
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 rcvd: 61        \item {
+                            \bfseries Walter Vargas (walter@covetel.com.ve) ...
+
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 rcvd: 61        \item {
+                            \bfseries Walter Vargas (walter@covetel.com.ve) ...
+
+? 
+
+! LaTeX Error: Command \bfseries invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 rcvd: 61        \item {\bfseries
+                                      Walter Vargas (walter@covetel.com.ve) ...
+
+? 
+
+! LaTeX Error: Command \bfseries invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 ...as (walter@covetel.com.ve)  } - {\bfseries
+                                                   2011-07-17 20:32:15} \\ H...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.35 
+     
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.35 
+     
+? 
+
+Overfull \hbox (35.20576pt too wide) in paragraph at lines 25--35
+\OT1/cmr/m/n/10.95 @200[]44[]32[]12\OML/cmm/m/it/10.95 cantv:com:veMX\OT1/cmr/m
+/n/10.95 ; (1\OML/cmm/m/it/10.95 serverfound\OT1/cmr/m/n/10.95 ); ; \OML/cmm/m/
+it/10.95 globaloptions \OT1/cmr/m/n/10.95 : +\OML/cmm/m/it/10.95 cmd\OT1/cmr/m/
+n/10.95 ; ; \OML/cmm/m/it/10.95 Gotanswer \OT1/cmr/m/n/10.95 :
+ []
+
+
+Overfull \hbox (28.70503pt too wide) in paragraph at lines 25--35
+\OT1/cmr/m/n/10.95 ; ; \OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 >> HEADER <<
+ \OMS/cmsy/m/n/10.95 ^^@\OML/cmm/m/it/10.95 opcode \OT1/cmr/m/n/10.95 : \OML/cm
+m/m/it/10.95 QUERY; status \OT1/cmr/m/n/10.95 : \OML/cmm/m/it/10.95 NOERROR; id
+ \OT1/cmr/m/n/10.95 : 13132; ; \OML/cmm/m/it/10.95 flags \OT1/cmr/m/n/10.95 :
+ []
+
+
+Overfull \hbox (1.1604pt too wide) in paragraph at lines 25--35
+\OT1/cmr/m/n/10.95 0; ; \OML/cmm/m/it/10.95 QUESTIONSECTION \OT1/cmr/m/n/10.95 
+:; \OML/cmm/m/it/10.95 cantv:com:ve:INMX\OT1/cmr/m/n/10.95 ; ; \OML/cmm/m/it/10
+.95 ANSWERSECTION \OT1/cmr/m/n/10.95 :
+ []
+
+
+Overfull \hbox (9.01215pt too wide) in paragraph at lines 25--35
+\OML/cmm/m/it/10.95 cantv:com:ve[]\OT1/cmr/m/n/10.95 3600\OML/cmm/m/it/10.95 IN
+MX\OT1/cmr/m/n/10.95 10\OML/cmm/m/it/10.95 relay:cantv:net:\OT1/cmr/m/n/10.95 ;
+ ; \OML/cmm/m/it/10.95 Querytime \OT1/cmr/m/n/10.95 : 76\OML/cmm/m/it/10.95 mse
+c\OT1/cmr/m/n/10.95 ; ; \OML/cmm/m/it/10.95 SERVER \OT1/cmr/m/n/10.95 :
+ []
+
+
+Overfull \hbox (33.12094pt too wide) in paragraph at lines 25--35
+\OT1/cmr/m/n/10.95 200[]44[]32[]1253(200[]44[]32[]12); ; \OML/cmm/m/it/10.95 WH
+EN \OT1/cmr/m/n/10.95 : \OML/cmm/m/it/10.95 SunJul\OT1/cmr/m/n/10.95 1715 : 38 
+: 052011; ; \OML/cmm/m/it/10.95 MSGSIZErcvd \OT1/cmr/m/n/10.95 :
+ []
+
+
+Overfull \hbox (527.72522pt too wide) in paragraph at lines 25--35
+\OML/cmm/m/it/10.95 HemosintentadoregistrarunacuentadecorreoenCANTV:NETparahace
+ralgunaspruebas; peroestonohasidoposible; debidoaqueelformularioderegistrodecue
+ntanueva\OT1/cmr/m/n/10.95 [1]\OML/cmm/m/it/10.95 noestafuncionando:[]$ 
+ []
+
+[0]
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.35 
+     
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.37 ...egistro.cantv.net/main/inicio.asp?CATALOG_
+                                                  PLAN=FREEMAIL_R_BF&imagen=...
+
+? 
+! Double subscript.
+l.37 ...t/main/inicio.asp?CATALOG_PLAN=FREEMAIL_R_
+                                                  BF&imagen=correo_e_gratuit...
+
+? 
+! Misplaced alignment tab character &.
+l.37 ...ain/inicio.asp?CATALOG_PLAN=FREEMAIL_R_BF&
+                                                  imagen=correo_e_gratuitol....
+
+? 
+! Double subscript.
+l.37 ...ATALOG_PLAN=FREEMAIL_R_BF&imagen=correo_e_
+                                                  gratuitol.gif        \item...
+
+? 
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 ...imagen=correo_e_gratuitol.gif        \item
+                                                   {\bfseries Walter Vargas ...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.37 ...agen=correo_e_gratuitol.gif        \item {
+                                                  \bfseries Walter Vargas (w...
+
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.37 ...agen=correo_e_gratuitol.gif        \item {
+                                                  \bfseries Walter Vargas (w...
+
+? 
+
+Overfull \hbox (26.2155pt too wide) in paragraph at lines 36--37
+[]\OT1/cmr/m/n/10.95 [1] http://registro.cantv.net/main/inicio.asp?CATALOG$[]\O
+ML/cmm/m/it/10.95 LAN \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.95 FREEMAIL[][]Fima
+gen \OT1/cmr/m/n/10.95 =
+ []
+
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.37 ...agen=correo_e_gratuitol.gif        \item {
+                                                  \bfseries Walter Vargas (w...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.40 walter_
+            varg1@cantv.net que corresponde a uno de los servicios de ABA que
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.42 
+     
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.42 
+     
+? 
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.42 
+     
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.44 cuenta walter_
+                   varg1@cantv.net a la cuenta waltervargas@gmail.com. Este ...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.46 
+     
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.46 
+     
+? 
+
+Overfull \hbox (171.58144pt too wide) in paragraph at lines 43--46
+\OT1/cmr/m/n/10.95 walter$[]\OML/cmm/m/it/10.95 arg\OT1/cmr/m/n/10.95 1@\OML/cm
+m/m/it/10.95 cantv:netalacuentawaltervargas\OT1/cmr/m/n/10.95 @\OML/cmm/m/it/10
+.95 gmail:com:EstecorreofueclasificadocomoSPAMporlosservidoresdeGoogle:[]$ 
+ []
+
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.46 
+     
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.67 http://en.wikipedia.org/wiki/Non_
+                                      delivery_report        \item {\bfserie...
+
+? 
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 ....org/wiki/Non_delivery_report        \item
+                                                   {\bfseries Walter Vargas ...
+
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 ...rg/wiki/Non_delivery_report        \item {
+                                                  \bfseries Walter Vargas (w...
+
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 ...rg/wiki/Non_delivery_report        \item {
+                                                  \bfseries Walter Vargas (w...
+
+? 
+
+! LaTeX Error: Command \bfseries invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 ...on_delivery_report        \item {\bfseries
+                                                   Walter Vargas (walter@cov...
+
+? 
+
+! LaTeX Error: Command \bfseries invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 ...as (walter@covetel.com.ve)  } - {\bfseries
+                                                   2011-07-17 23:27:31} \\ S...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.69 
+     
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.69 
+     
+? 
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.69 
+     
+? 
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.74 ... anexo 1 de este documento.        \item {
+                                                  \bfseries Carlos Maldonado...
+[1]
+
+! Package inputenc Error: Unicode char \u8:³ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 ...�n Solución OpenLDAP\item[DescripciÃ³n]
+                                                   Se adjunta el documento p...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.91 mail=rmartinezp@cantv.net,ou=hash_
+                                       qrQR,ou=correo,ou=isp,dc=cantv,dc=net...
+
+? 
+
+LaTeX Warning: Command \' invalid in math mode on input line 92.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.92 ... para construir el atributo DN no es está
+                                                  ndar debido a que no utiliza
+? 
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.92 ... para construir el atributo DN no es está
+                                                  ndar debido a que no utiliza
+? 
+! You can't use `\spacefactor' in math mode.
+<argument> ...cefactor \spacefactor }\spacefactor 
+                                                  \accent@spacefactor 
+l.92 ... para construir el atributo DN no es está
+                                                  ndar debido a que no utiliza
+? 
+
+LaTeX Warning: Command \' invalid in math mode on input line 93.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.93 ...ibutos sugeridos en la tabla de la secció
+                                                  n 3 en el RFC 4514 descrita a
+
+? 
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.93 ...ibutos sugeridos en la tabla de la secció
+                                                  n 3 en el RFC 4514 descrita a
+
+? 
+! You can't use `\spacefactor' in math mode.
+<argument> ...cefactor \spacefactor }\spacefactor 
+                                                  \accent@spacefactor 
+l.93 ...ibutos sugeridos en la tabla de la secció
+                                                  n 3 en el RFC 4514 descrita a
+
+? 
+
+LaTeX Warning: Command \' invalid in math mode on input line 94.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.94 continuació
+                 n: String X.500 AttributeType ------
+? 
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.94 continuació
+                 n: String X.500 AttributeType ------
+? 
+! You can't use `\spacefactor' in math mode.
+<argument> ...cefactor \spacefactor }\spacefactor 
+                                                  \accent@spacefactor 
+l.94 continuació
+                 n: String X.500 AttributeType ------
+? 
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.99 ....1) Se adjunta el RFC citado.        \item
+                                                   {\bfseries Walter Vargas ...
+
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.99 ...) Se adjunta el RFC citado.        \item {
+                                                  \bfseries Walter Vargas (w...
+
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.99 ...) Se adjunta el RFC citado.        \item {
+                                                  \bfseries Walter Vargas (w...
+
+? 
+
+! LaTeX Error: Command \bfseries invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.99 ...nta el RFC citado.        \item {\bfseries
+                                                   Walter Vargas (walter@cov...
+
+? 
+
+! LaTeX Error: Command \bfseries invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.99 ...as (walter@covetel.com.ve)  } - {\bfseries
+                                                   2011-07-19 12:16:12} \\ E...
+
+? 
+
+LaTeX Warning: Command \' invalid in math mode on input line 99.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.99 ...cumento indica que OpenLDAP no soporta má
+                                                  s de 32 base de datos.
+? 
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.99 ...cumento indica que OpenLDAP no soporta má
+                                                  s de 32 base de datos.
+? 
+! You can't use `\spacefactor' in math mode.
+<argument> ...cefactor \spacefactor }\spacefactor 
+                                                  \accent@spacefactor 
+l.99 ...cumento indica que OpenLDAP no soporta má
+                                                  s de 32 base de datos.
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.100 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.100 
+      
+? 
+Missing character: There is no � in font cmex10!
+Missing character: There is no � in font cmex10!
+Missing character: There is no � in font cmex10!
+Missing character: There is no � in font cmex10!
+Missing character: There is no � in font cmex10!
+Missing character: There is no � in font cmex10!
+Missing character: There is no � in font cmex10!
+Missing character: There is no � in font cmex10!
+
+Overfull \hbox (556.58595pt too wide) in paragraph at lines 87--100
+\OML/cmm/m/it/10.95 correo; ou \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.95 isp; dc
+ \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.95 cantv; dc \OT1/cmr/m/n/10.95 = \OML/c
+mm/m/it/10.95 netEsteesquemaparaconstruirelatributoDNnoesest[]ndardebidoaquenou
+tilizalosatributossugeridosenlatabladelasecci[]n\OT1/cmr/m/n/10.95 3\OML/cmm/m/
+it/10.95 enelRFC\OT1/cmr/m/n/10.95 4514\OML/cmm/m/it/10.95 descritaacontinuaci[
+]n \OT1/cmr/m/n/10.95 :
+ []
+
+
+Overfull \hbox (1572.5724pt too wide) in paragraph at lines 87--100
+\OMS/cmsy/m/n/10.95 ^^@ ^^@ ^^@ ^^@ ^^@ ^^@ ^^@ ^^@ ^^@ ^^@ ^^@ ^^@ ^^@ ^^@ ^^@
+ ^^@ ^^@ ^^@ ^^@ ^^@ ^^@\OML/cmm/m/it/10.95 CNcommonName\OT1/cmr/m/n/10.95 (2[]
+5[]4[]3)\OML/cmm/m/it/10.95 LlocalityName\OT1/cmr/m/n/10.95 (2[]5[]4[]7)\OML/cm
+m/m/it/10.95 STstateOrProvinceName\OT1/cmr/m/n/10.95 (2[]5[]4[]8)\OML/cmm/m/it/
+10.95 OorganizationName\OT1/cmr/m/n/10.95 (2[]5[]4[]10)\OML/cmm/m/it/10.95 OUor
+ganizationalUnitName\OT1/cmr/m/n/10.95 (2[]5[]4[]11)\OML/cmm/m/it/10.95 Ccountr
+yName\OT1/cmr/m/n/10.95 (2[]5[]4[]6)\OML/cmm/m/it/10.95 STREETstreetAddress\OT1
+/cmr/m/n/10.95 (2[]5[]4[]9)\OML/cmm/m/it/10.95 DCdomainComponent\OT1/cmr/m/n/10
+.95 (0[]9[]2342[]19200300[]100[]1[]25)\OML/cmm/m/it/10.95 UIDuserId\OT1/cmr/m/n
+/10.95 (0[]9[]2342[]19200300[]100[]1[]1)\OML/cmm/m/it/10.95 SeadjuntaelRFCcitad
+o:[][] \OMS/cmsy/m/n/10.95 ^^@
+ []
+
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.100 
+      
+? 
+[2]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.140  usando LDAP_
+                   ROUTING desde Sendmail para la validación de los mail-to...
+
+? 
+
+LaTeX Warning: Command \' invalid in math mode on input line 140.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.140 ...ROUTING desde Sendmail para la validació
+                                                  n de los mail-to/rcpt-to de
+? 
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.140 ...ROUTING desde Sendmail para la validació
+                                                  n de los mail-to/rcpt-to de
+? 
+! You can't use `\spacefactor' in math mode.
+<argument> ...cefactor \spacefactor }\spacefactor 
+                                                  \accent@spacefactor 
+l.140 ...ROUTING desde Sendmail para la validació
+                                                  n de los mail-to/rcpt-to de
+? 
+
+LaTeX Warning: Command \' invalid in math mode on input line 141.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.141 ...uales en el ISP (todos en LDAP) y tambié
+                                                  n
+? 
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.141 ...uales en el ISP (todos en LDAP) y tambié
+                                                  n
+? 
+! You can't use `\spacefactor' in math mode.
+<argument> ...cefactor \spacefactor }\spacefactor 
+                                                  \accent@spacefactor 
+l.141 ...uales en el ISP (todos en LDAP) y tambié
+                                                  n
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.143 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.143 
+      
+? 
+Missing character: There is no � in font cmex10!
+Missing character: There is no � in font cmex10!
+Missing character: There is no � in font cmex10!
+Missing character: There is no � in font cmex10!
+
+Overfull \hbox (393.38779pt too wide) in paragraph at lines 139--143
+\OT1/cmr/m/n/10.95 LDAP$[]\OML/cmm/m/it/10.95 OUTINGdesdeSendmailparalavalidaci
+[]ndelosmail \OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 to=rcpt \OMS/cmsy/m/n/
+10.95 ^^@ \OML/cmm/m/it/10.95 todecuentas\OT1/cmr/m/n/10.95 @\OML/cmm/m/it/10.9
+5 cantv:netydedominiosvirtualesenelISP\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 t
+odosenLDAP\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 ytambi[]nsendmailconcyrus \OM
+S/cmsy/m/n/10.95 ^^@
+ []
+
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.143 
+      
+? 
+[3]
+
+! Package inputenc Error: Unicode char \u8:³ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.179 ...Análisis CANTV.NET \item[DescripciÃ³n]
+                                                   Se debe construir el esqu...
+
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
+
+ []
+
+
+! Package inputenc Error: Unicode char \u8:³ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.192 ...amas CANTV.NET a DIA\item[DescripciÃ³n]
+                                                   Se adjuntan los diagramas...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.198 cantv_
+            net.pdf y se determino que es la misma información en ambos doc...
+
+? 
+
+LaTeX Warning: Command \' invalid in math mode on input line 198.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.198 ... se determino que es la misma informació
+                                                  n en ambos documentos,
+? 
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.198 ... se determino que es la misma informació
+                                                  n en ambos documentos,
+? 
+! You can't use `\spacefactor' in math mode.
+<argument> ...cefactor \spacefactor }\spacefactor 
+                                                  \accent@spacefactor 
+l.198 ... se determino que es la misma informació
+                                                  n en ambos documentos,
+? 
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.200 ...net_plataforma_mayo_2011.pdf        \item
+                                                   {\bfseries Lilibeth Ramir...
+
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.200 ...t_plataforma_mayo_2011.pdf        \item {
+                                                  \bfseries Lilibeth Ramirez...
+
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.200 ...t_plataforma_mayo_2011.pdf        \item {
+                                                  \bfseries Lilibeth Ramirez...
+
+? 
+
+! LaTeX Error: Command \bfseries invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.200 ...rma_mayo_2011.pdf        \item {\bfseries
+                                                   Lilibeth Ramirez (lilibet...
+
+? 
+
+! LaTeX Error: Command \bfseries invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.200 ...(lilibeth@covetel.com.ve)  } - {\bfseries
+                                                   2011-07-13 19:42:47} \\ S...
+
+? 
+
+LaTeX Warning: Command \' invalid in math mode on input line 200.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.200 ... 19:42:47} \\ Se actualizo la informació
+                                                  n correspondiente a los do...
+
+? 
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.200 ... 19:42:47} \\ Se actualizo la informació
+                                                  n correspondiente a los do...
+
+? 
+! You can't use `\spacefactor' in math mode.
+<argument> ...cefactor \spacefactor }\spacefactor 
+                                                  \accent@spacefactor 
+l.200 ... 19:42:47} \\ Se actualizo la informació
+                                                  n correspondiente a los do...
+
+? 
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.202 ...que se encontraban repetidos        \item
+                                                   {\bfseries Lilibeth Ramir...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.202 ...e se encontraban repetidos        \item {
+                                                  \bfseries Lilibeth Ramirez...
+
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.202 ...e se encontraban repetidos        \item {
+                                                  \bfseries Lilibeth Ramirez...
+
+? 
+Missing character: There is no � in font cmex10!
+Missing character: There is no � in font cmex10!
+Missing character: There is no � in font cmex10!
+Missing character: There is no � in font cmex10!
+
+Overfull \hbox (820.59357pt too wide) in paragraph at lines 197--202
+\OT1/cmr/m/n/10.95 cantv$[]\OML/cmm/m/it/10.95 et:pdfysedeterminoqueeslamismain
+formaci[]nenambosdocumentos; esporelloquesedescartaMAIL:Platform:Mayo[]\OT1/cmr
+/m/n/10.95 02[]2011\OML/cmm/m/it/10.95 :pdfyserenombreelarchivocantv[]et:pdfaca
+ntv[]et[]lataforma[]ayo[]\OT1/cmr/m/n/10.95 011\OML/cmm/m/it/10.95 :pdf[][] \OM
+S/cmsy/m/n/10.95 ^^@
+ []
+
+
+Overfull \hbox (10.03995pt too wide) in paragraph at lines 197--202
+\OML/cmm/m/it/10.95 Seactualizolainformaci[]ncorrespondientealosdocumentosdelre
+positoriocantv \OMS/cmsy/m/n/10.95 ^^@
+ []
+
+
+Overfull \hbox (198.35498pt too wide) in paragraph at lines 197--202
+\OML/cmm/m/it/10.95 info; endondefueronactualizadoslosnombresdealgunosarchivosy
+fueroneliminadosaquellosqueseencontrabanrepetidos[][]$ 
+ []
+
+[4]
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.202 ...e se encontraban repetidos        \item {
+                                                  \bfseries Lilibeth Ramirez...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.210 cantv_
+            net_plataforma_mayo_2011.pdf.
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.211 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.211 
+      
+? 
+
+Overfull \hbox (92.08633pt too wide) in paragraph at lines 209--211
+\OT1/cmr/m/n/10.95 Migrado di-a-gra-ma mail.cantv.net perteneciente a la pag-i-
+na 1 del doc-u-men-to cantv$[]\OML/cmm/m/it/10.95 et[]lataforma[]ayo[]\OT1/cmr/
+m/n/10.95 011\OML/cmm/m/it/10.95 :pdf:[]$ 
+ []
+
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.211 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.213 cantv_
+            net_plataforma_mayo_2011.pdf.
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.214 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.214 
+      
+? 
+
+Overfull \hbox (93.63756pt too wide) in paragraph at lines 212--214
+\OT1/cmr/m/n/10.95 Migrado di-a-gra-ma re-lay.cantv.net perteneciente a la pag-
+i-na 2 del doc-u-men-to cantv$[]\OML/cmm/m/it/10.95 et[]lataforma[]ayo[]\OT1/cm
+r/m/n/10.95 011\OML/cmm/m/it/10.95 :pdf:[]$ 
+ []
+
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.214 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.216 documento cantv_
+                      net_plataforma_mayo_2011.pdf.
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.217 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.217 
+      
+? 
+
+Overfull \hbox (133.24014pt too wide) in paragraph at lines 215--217
+\OT1/cmr/m/n/10.95 Migrado di-a-gra-ma post-man.ric2.cantv.net perteneciente a 
+la pag-i-na 3 del doc-u-men-to cantv$[]\OML/cmm/m/it/10.95 et[]lataforma[]ayo[]
+\OT1/cmr/m/n/10.95 011\OML/cmm/m/it/10.95 :pdf:[]$ 
+ []
+
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.217 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.219 documento cantv_
+                      net_plataforma_mayo_2011.pdf.
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.220 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.220 
+      
+? 
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.220 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.222 cantv_
+            net_plataforma_mayo_2011.pdf.
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.223 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.223 
+      
+? 
+
+Overfull \hbox (116.72386pt too wide) in paragraph at lines 221--223
+\OT1/cmr/m/n/10.95 Migrado di-a-gra-ma pop-imap.cantv.net perteneciente a la pa
+g-i-na 5 del doc-u-men-to cantv$[]\OML/cmm/m/it/10.95 et[]lataforma[]ayo[]\OT1/
+cmr/m/n/10.95 011\OML/cmm/m/it/10.95 :pdf:[]$ 
+ []
+
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.223 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.226 cantv_
+            net_plataforma_mayo_2011.pdf.
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.227 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.227 
+      
+? 
+
+Overfull \hbox (93.97214pt too wide) in paragraph at lines 225--227
+\OT1/cmr/m/n/10.95 Migrado di-a-gra-ma amavis-clamav perteneciente a la pag-i-n
+a 6 del doc-u-men-to cantv$[]\OML/cmm/m/it/10.95 et[]lataforma[]ayo[]\OT1/cmr/m
+/n/10.95 011\OML/cmm/m/it/10.95 :pdf:[]$ 
+ []
+
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.227 
+      
+? 
+[5]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.229 cantv_
+            net_plataforma_mayo_2011.pdf.
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.230 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.230 
+      
+? 
+
+Overfull \hbox (91.78215pt too wide) in paragraph at lines 228--230
+\OT1/cmr/m/n/10.95 Migrado di-a-gra-ma ldap-openldap perteneciente a la pag-i-n
+a 7 del doc-u-men-to cantv$[]\OML/cmm/m/it/10.95 et[]lataforma[]ayo[]\OT1/cmr/m
+/n/10.95 011\OML/cmm/m/it/10.95 :pdf:[]$ 
+ []
+
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.230 
+      
+? 
+
+Overfull \hbox (53.40807pt too wide) in paragraph at lines 231--232
+\OT1/cmr/m/n/10.95 Migraci^^Son de los di-a-gra-mas en los archivos Visio-Flujo
+.Correos.pdf y MAIL.Platform.Mayo.02.2011.pdf
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.242 ...19:18:17} \\ Los diagramas: Flujo-Correo_
+                                                  02.dia y Flujo-Correo_01.d...
+
+? 
+
+LaTeX Warning: Command \' invalid in math mode on input line 243.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.243 ...n con el estado actual de la organizació
+                                                  n tal y
+? 
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.243 ...n con el estado actual de la organizació
+                                                  n tal y
+? 
+! You can't use `\spacefactor' in math mode.
+<argument> ...cefactor \spacefactor }\spacefactor 
+                                                  \accent@spacefactor 
+l.243 ...n con el estado actual de la organizació
+                                                  n tal y
+? 
+
+LaTeX Warning: Command \~ invalid in math mode on input line 244.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.244 como se reseñ
+                    a en el attachment:
+? 
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.244 como se reseñ
+                    a en el attachment:
+? 
+! You can't use `\spacefactor' in math mode.
+<argument> ...cefactor \spacefactor }\spacefactor 
+                                                  \accent@spacefactor 
+l.244 como se reseñ
+                    a en el attachment:
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.245 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.245 
+      
+? 
+Missing character: There is no � in font cmex10!
+Missing character: There is no � in font cmex10!
+Missing character: There is no � in font cmex10!
+Missing character: There is no � in font cmex10!
+
+Overfull \hbox (442.53668pt too wide) in paragraph at lines 242--245
+\OT1/cmr/m/n/10.95 Los di-a-gra-mas: Flujo-Correo$[]2\OML/cmm/m/it/10.95 :diayF
+lujo \OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 Correo[]\OT1/cmr/m/n/10.95 1\O
+ML/cmm/m/it/10.95 :diadebenserreformadosycorregidosparaquecorrespondanconelesta
+doactualdelaorganizaci[]ntalycomoserese[]aenelattachment \OT1/cmr/m/n/10.95 :
+ []
+
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.245 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.246 correo_
+             reinaldo.txt
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.247 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.247 
+      
+? 
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.247 
+      
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.248 del ticket #
+                  98
+? 
+
+! Package inputenc Error: Unicode char \u8:³ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.260 ... Análisis CANTV.NET\item[DescripciÃ³n]
+                                                   Se requiere construir un ...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.265 ...ipción en el documento de análisis doc_
+                                                  005,
+? 
+
+LaTeX Warning: Command \' invalid in math mode on input line 266.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.266 especificamente en el Tí
+                               tulo: 2.1.7. F06, en:
+? 
+! Missing { inserted.
+<to be read again> 
+                   \begingroup 
+l.266 especificamente en el Tí
+                               tulo: 2.1.7. F06, en:
+? 
+
+LaTeX Warning: Command \i invalid in math mode on input line 266.
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.266 especificamente en el Tí
+                               tulo: 2.1.7. F06, en:
+? 
+! You can't use `\spacefactor' in math mode.
+<argument> ...cefactor \spacefactor }\spacefactor 
+                                                  \accent@spacefactor 
+l.266 especificamente en el Tí
+                               tulo: 2.1.7. F06, en:
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.267 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.267 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.267 
+      
+? 
+Missing character: There is no � in font cmex10!
+Missing character: There is no � in font cmex10!
+
+Overfull \hbox (194.0284pt too wide) in paragraph at lines 265--267
+\OT1/cmr/m/n/10.95 Se debe cor-re-gir un er-ror de tran-scrip-ci^^Son en el doc
+-u-men-to de an^^Sali-sis doc$[]05\OML/cmm/m/it/10.95 ; especificamenteenelT[]$
+ 
+ []
+
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.267 
+      
+? 
+[6]
+
+! LaTeX Error: \begin{enumerate} on input line 264 ended by \end{quoting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.286 >
+        6. NDR a generados por “tiempo excedido para la entrega” de correos
+
+? 
+
+! LaTeX Error: \begin{description} on input line 258 ended by \end{quoting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.292 >
+        Verificar si está o no incompleta ésta información.        \item ...
+
+? 
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.292 ...mpleta ésta información.        \item {
+                                                  \bfseries Lilibeth Ramirez...
+
+? 
+
+Underfull \hbox (badness 10000) detected at line 292
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.293 ...recmoned " por recomendó.        \item {
+                                                  \bfseries Walter Vargas (w...
+
+? 
+
+Underfull \hbox (badness 10000) detected at line 293
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.293 ...para agregarlo al glosario        \item {
+                                                  \bfseries Walter Vargas (w...
+
+? 
+
+Underfull \hbox (badness 10000) detected at line 293
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.293 ...NET bajo el término FILER        \item {
+                                                  \bfseries Walter Vargas (w...
+
+? 
+
+Underfull \hbox (badness 10000) detected at line 293
+[][]
+ []
+
+
+Overfull \hbox (10.89954pt too wide) in paragraph at lines 293--293
+\OT1/cmr/m/n/10.95 Se re-quiere in-for-ma-ci^^Son for-mal y de-tal-la-da so-bre
+ el t^^Sermi-no MGMT uti-liza-do en CANTV.NET 
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.293 ...GMT utilizado en CANTV.NET        \item {
+                                                  \bfseries Walter Vargas (w...
+
+? 
+
+Underfull \hbox (badness 10000) detected at line 293
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.293 ...aforma de correo CANTV.NET        \item {
+                                                  \bfseries Walter Vargas (w...
+
+? 
+
+Underfull \hbox (badness 10000) detected at line 293
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.293 ... el directorio /var/tmp ?         \item {
+                                                  \bfseries Walter Vargas (w...
+
+? 
+
+Underfull \hbox (badness 10000) detected at line 293
+[][]
+ []
+
+[7]
+
+! LaTeX Error: \begin{document} ended by \end{quoting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.302 >
+        El script que regenera toda la BD de LDAP anota en un archivo los
+? 
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.302 >
+        El script que regenera toda la BD de LDAP anota en un archivo los
+? 
+
+! LaTeX Error: \begin{document} ended by \end{quoting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.308 >
+        Iniciado proceso de reconstruccion LDIF-BOSS. Tiempo de arranque: Wed
+? 
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.308 >
+        Iniciado proceso de reconstruccion LDIF-BOSS. Tiempo de arranque: Wed
+? 
+
+! LaTeX Error: \begin{document} ended by \end{quoting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.314 >
+        Poco mas de 15 minutos para reconstruir los LDIF, pero este es SOLO un
+? 
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.314 >
+        Poco mas de 15 minutos para reconstruir los LDIF, pero este es SOLO un
+? 
+
+! LaTeX Error: \begin{document} ended by \end{quoting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.324 >
+        Atentamente,
+? 
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.324 >
+        Atentamente,
+? 
+
+! LaTeX Error: \begin{document} ended by \end{quoting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.326 >
+        Reynaldo R. Martinez P.
+? 
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.326 >
+        Reynaldo R. Martinez P.
+? 
+
+! LaTeX Error: \begin{document} ended by \end{quoting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.333 >
+       
+? 
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.333 >
+       
+? 
+
+! LaTeX Error: \begin{document} ended by \end{quoting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.335 > >
+          Es posible conocer el tiempo preciso que le toma al programa
+? 
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.335 > >
+          Es posible conocer el tiempo preciso que le toma al programa
+? 
+
+! LaTeX Error: \begin{document} ended by \end{quoting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.338 > >
+         
+? 
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.338 > >
+         
+? 
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.340         \item {
+                     \bfseries Carlos Maldonado (cmaldonado@covetel.com.ve) ...
+
+? 
+
+Underfull \hbox (badness 10000) detected at line 340
+[][]
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{enumerate}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.340 ...iendo tiempo trabajado    \end{enumerate}
+                                                  
+? 
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.340 ...iendo tiempo trabajado    \end{enumerate}
+                                                  
+? 
+
+! LaTeX Error: \begin{document} ended by \end{description}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.342 \end{description}
+                       
+? 
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.342 \end{description}
+                       
+? 
+
+! Package inputenc Error: Unicode char \u8:³ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.348 ...orativo de CANTV.doc\item[DescripciÃ³n]
+                                                   El documento se encuentra...
+
+? 
+[8]
+
+! Package inputenc Error: Unicode char \u8:³ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.365 ...VOperaciones2005.doc\item[DescripciÃ³n]
+                                                   https://rt.covetel.com.ve...
+
+? 
+
+Overfull \hbox (41.05286pt too wide) in paragraph at lines 365--365
+[]\OT1/cmr/m/n/10.95 https://rt.covetel.com.ve/Ticket/Attachment/793/556/CANTVO
+peraciones2005.doc 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 369--369
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 369--369
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 369--369
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 369--369
+
+ []
+
+
+! Package inputenc Error: Unicode char \u8:³ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.377 ...eria Corporativa.doc\item[DescripciÃ³n]
+                                                   https://rt.covetel.com.ve...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.395 ... Matriz_de_interfaces_(proveedores).xls }
+                                                  
+? 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 395.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 395.
+! Missing $ inserted.
+<inserted text> 
+                $
+l.395 ... Matriz_de_interfaces_(proveedores).xls }
+                                                  
+? 
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `subscript' on input line 395.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `subscript' on input line 395.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `subscript' on input line 395.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.399 \item[Asunto] Analizar Documento: Matriz_
+                                               de_interfaces_(proveedores).x...
+
+? 
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.399 ...triz_de_interfaces_(proveedores).xls\item
+                                                  [DescripciÃ³n] https://r...
+
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.399 ...es_(proveedores).xls\item[DescripciÃ³n]
+                                                   https://rt.covetel.com.ve...
+
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.399 ...es_(proveedores).xls\item[DescripciÃ³n]
+                                                   https://rt.covetel.com.ve...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:³ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.399 ...es_(proveedores).xls\item[DescripciÃ³n]
+                                                   https://rt.covetel.com.ve...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.400 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.400 
+      
+? 
+
+Overfull \hbox (265.30199pt too wide) in paragraph at lines 399--400
+[]\OT1/cmr/m/n/10.95 Analizar Doc-u-men-to: Matriz$[]\OML/cmm/m/it/10.95 e[]nte
+rfaces[]proveedores\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 :xlshttps \OT1/cmr/m
+/n/10.95 : \OML/cmm/m/it/10.95 ==rt:covetel:com:ve=Ticket=Attachment=\OT1/cmr/m
+/n/10.95 793\OML/cmm/m/it/10.95 =\OT1/cmr/m/n/10.95 562\OML/cmm/m/it/10.95 =Mat
+riz[]e[]nterfaces[]$ 
+ []
+
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.400 
+      
+? 
+[9]
+
+! Package inputenc Error: Unicode char \u8:³ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.418 ...change Topology.jpg \item[DescripciÃ³n]
+                                                   https://rt.covetel.com.ve...
+
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 422--422
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 422--422
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 422--422
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 422--422
+
+ []
+
+
+! Package inputenc Error: Unicode char \u8:³ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.430 ...ge Topology 2006.jpg\item[DescripciÃ³n]
+                                                   https://rt.covetel.com.ve...
+
+? 
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 434--434
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 434--434
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 434--434
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 434--434
+
+ []
+
+
+! Package inputenc Error: Unicode char \u8:³ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.442 ... Storage Exchnas.doc\item[DescripciÃ³n]
+                                                   https://rt.covetel.com.ve...
+
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 446--446
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 446--446
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 446--446
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 446--446
+
+ []
+
+
+! Package inputenc Error: Unicode char \u8:³ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.454 ...ensajeriadeCantv.doc\item[DescripciÃ³n]
+                                                   El documento se encuentra...
+
+? 
+
+Overfull \hbox (132.53708pt too wide) in paragraph at lines 456--456
+[]\OT1/cmr/m/n/10.95 https://rt.covetel.com.ve/Ticket/Attachment/793/559/Descri
+pcionGeneralDelSistemadeMensajeriadeCantv.doc 
+ []
+
+[11]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.464 documentos CantvOperaciones 2007.doc y NAS_
+                                                 EXCHANGE.ppt. Además de co...
+
+? 
+
+LaTeX Warning: Command \' invalid in math mode on input line 464.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.464 ...iones 2007.doc y NAS_EXCHANGE.ppt. Ademá
+                                                  s de coincidir
+? 
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.464 ...iones 2007.doc y NAS_EXCHANGE.ppt. Ademá
+                                                  s de coincidir
+? 
+! You can't use `\spacefactor' in math mode.
+<argument> ...cefactor \spacefactor }\spacefactor 
+                                                  \accent@spacefactor 
+l.464 ...iones 2007.doc y NAS_EXCHANGE.ppt. Ademá
+                                                  s de coincidir
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.466 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.466 
+      
+? 
+Missing character: There is no � in font cmex10!
+Missing character: There is no � in font cmex10!
+
+Overfull \hbox (328.84732pt too wide) in paragraph at lines 463--466
+\OT1/cmr/m/n/10.95 los doc-u-men-tos Cantv-Op-era-ciones 2007.doc y NAS$[]\OML/
+cmm/m/it/10.95 XCHANGE:ppt:Adem[]sdecoincidirconelDiagramaRedExchange:jpgyExcha
+ngeTopology:jpg[]$ 
+ []
+
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.466 
+      
+? 
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.481 ... ello fue tomada del documento Situació
+                                                  n
+? 
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.482 actual y aná
+                    lisis de espacio de la Plataforma de Mensajeria Corporat...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.485 ...e se encuentra en el documento Situació
+                                                  n actual y
+? 
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.486 aná
+           lisis de espacio de la Plataforma de Mensajeria Corporativa.doc  ...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:³ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.496 ...aciones Exchange.doc\item[DescripciÃ³n]
+                                                   El documento se encuentra...
+
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+
+ []
+
+[12]
+
+! Package inputenc Error: Unicode char \u8:³ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.510 ...to: Red Exchange.jpg\item[DescripciÃ³n]
+                                                   El documento se encuentra...
+
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 516--516
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 516--516
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 516--516
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 516--516
+
+ []
+
+
+! Package inputenc Error: Unicode char \u8:³ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 ... - CANTV-11-2005.doc\item[DescripciÃ³n]
+                                                   El documento se encuentra...
+
+? 
+
+Overfull \hbox (2.51968pt too wide) in paragraph at lines 530--532
+\OT1/cmr/m/n/10.95 Este doc-u-men-to fue someti-do a un pro-ce-so de DIFF con-t
+ra el doc-u-men-to CANTV
+ []
+
+[13]
+
+! Package inputenc Error: Unicode char \u8:³ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.541 ... Operaciones2007.doc\item[DescripciÃ³n]
+                                                   El documento se encuentra...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.554 ...mento fue comparado con los archivos NAS_
+                                                  Exchange.ppt,
+? 
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.555 Situació
+                n actual y análisis de espacio de la Plataforma de Mensajeria
+
+? 
+
+! Package inputenc Error: Unicode char \u8:́ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.555 Situación actual y aná
+                                lisis de espacio de la Plataforma de Mensajeria
+
+? 
+
+LaTeX Warning: Command \' invalid in math mode on input line 557.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.557 contenian informació
+                           n similar, en algunos casos uno más actualizado ...
+
+? 
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.557 contenian informació
+                           n similar, en algunos casos uno más actualizado ...
+
+? 
+! You can't use `\spacefactor' in math mode.
+<argument> ...cefactor \spacefactor }\spacefactor 
+                                                  \accent@spacefactor 
+l.557 contenian informació
+                           n similar, en algunos casos uno más actualizado ...
+
+? 
+
+LaTeX Warning: Command \' invalid in math mode on input line 557.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.557 ...mación similar, en algunos casos uno má
+                                                  s actualizado que otro.
+? 
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.557 ...mación similar, en algunos casos uno má
+                                                  s actualizado que otro.
+? 
+! You can't use `\spacefactor' in math mode.
+<argument> ...cefactor \spacefactor }\spacefactor 
+                                                  \accent@spacefactor 
+l.557 ...mación similar, en algunos casos uno má
+                                                  s actualizado que otro.
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.558 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.558 
+      
+? 
+Missing character: There is no � in font cmex10!
+Missing character: There is no � in font cmex10!
+Missing character: There is no � in font cmex10!
+Missing character: There is no � in font cmex10!
+
+Overfull \hbox (1099.69362pt too wide) in paragraph at lines 554--558
+[]\OT1/cmr/m/n/10.95 El con-tenido de este doc-u-men-to fue com-para-do con los
+ archivos NAS$[]\OML/cmm/m/it/10.95 xchange:ppt; Situacionactualyanalisisdeespa
+ciodelaPlataformadeMensajeriaCorporativa:docyDescripcionGeneralDelSistemadeMens
+ajeriadeCantv:doc; yaquecontenianinformaci[]nsimilar; enalgunoscasosunom[]sactu
+alizadoqueotro:[]$ 
+ []
+
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.558 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.565 ...63: Analizar Documento NAS_EXCHANGE.ppt }
+                                                  
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.565 ...63: Analizar Documento NAS_EXCHANGE.ppt }
+                                                  
+? 
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `subscript' on input line 565.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.569 \item[Asunto] Analizar Documento NAS_
+                                           EXCHANGE.ppt\item[DescripciÃ³n]...
+
+? 
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.569 ... Analizar Documento NAS_EXCHANGE.ppt\item
+                                                  [DescripciÃ³n] El docume...
+
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.569 ...nto NAS_EXCHANGE.ppt\item[DescripciÃ³n]
+                                                   El documento se encuentra...
+
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.569 ...nto NAS_EXCHANGE.ppt\item[DescripciÃ³n]
+                                                   El documento se encuentra...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:³ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.569 ...nto NAS_EXCHANGE.ppt\item[DescripciÃ³n]
+                                                   El documento se encuentra...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.570 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.570 
+      
+? 
+
+Overfull \hbox (56.06511pt too wide) in paragraph at lines 569--570
+[]\OT1/cmr/m/n/10.95 Analizar Doc-u-men-to NAS$[]\OML/cmm/m/it/10.95 XCHANGE:pp
+tEldocumentoseencuentraenelrepositoriocantv \OMS/cmsy/m/n/10.95 ^^@
+ []
+
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.570 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.571 ...tel.com.ve/Ticket/Attachment/793/564/NAS_
+                                                  EXCHANGE.ppt\item[Propieta...
+
+? 
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.571 .../Attachment/793/564/NAS_EXCHANGE.ppt\item
+                                                  [Propietario] lilibeth\ite...
+
+? H
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.571 ...93/564/NAS_EXCHANGE.ppt\item[Propietario]
+                                                   lilibeth\item[Horas Traba...
+
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.571 ...93/564/NAS_EXCHANGE.ppt\item[Propietario]
+                                                   lilibeth\item[Horas Traba...
+
+? 
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.571 ...HANGE.ppt\item[Propietario] lilibeth\item
+                                                  [Horas Trabajadas] 6
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.571 ...pietario] lilibeth\item[Horas Trabajadas]
+                                                   6
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.571 ...pietario] lilibeth\item[Horas Trabajadas]
+                                                   6
+? 
+
+Overfull \hbox (20.00203pt too wide) in paragraph at lines 571--571
+[]\OT1/cmr/m/n/10.95 https://rt.covetel.com.ve/Ticket/Attachment/793/564/NAS$[]
+\OML/cmm/m/it/10.95 XCHANGE:pptlilibeth[][]$ 
+ []
+
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.571 ...pietario] lilibeth\item[Horas Trabajadas]
+                                                   6
+? 
+[14]
+
+! Package inputenc Error: Unicode char \u8:³ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.597 ...hange (usuarios).xls\item[DescripciÃ³n]
+                                                   El documento se encuentra...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:³ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.617 ...uncional (Wins).xls \item[DescripciÃ³n]
+                                                   El documento se encuentra...
+
+? 
+
+Overfull \hbox (5.37096pt too wide) in paragraph at lines 626--626
+[]\OT1/cmr/bx/n/10.95 Carlos Mal-don-a-do (cmal-don-a-do@covetel.com.ve)  \OT1/
+cmr/m/n/10.95 - \OT1/cmr/bx/n/10.95 2011-07-01 17:15:07 
+ []
+
+[15]
+Overfull \hbox (5.37096pt too wide) in paragraph at lines 626--626
+[]\OT1/cmr/bx/n/10.95 Carlos Mal-don-a-do (cmal-don-a-do@covetel.com.ve)  \OT1/
+cmr/m/n/10.95 - \OT1/cmr/bx/n/10.95 2011-07-06 21:38:50 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.630 ...o: LDAP_Matriz funcional (usuarios).xls }
+                                                  
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.630 ...o: LDAP_Matriz funcional (usuarios).xls }
+                                                  
+? 
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `subscript' on input line 630.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.634 \item[Asunto] Analizar Documento: LDAP_
+                                             Matriz funcional (usuarios).xls...
+
+? 
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.634 ...LDAP_Matriz funcional (usuarios).xls\item
+                                                  [DescripciÃ³n] El docume...
+
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.634 ...ional (usuarios).xls\item[DescripciÃ³n]
+                                                   El documento se encuentra...
+
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.634 ...ional (usuarios).xls\item[DescripciÃ³n]
+                                                   El documento se encuentra...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:³ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.634 ...ional (usuarios).xls\item[DescripciÃ³n]
+                                                   El documento se encuentra...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.636 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.636 
+      
+? 
+
+Overfull \hbox (270.7121pt too wide) in paragraph at lines 634--636
+[]\OT1/cmr/m/n/10.95 Analizar Doc-u-men-to: LDAP$[]\OML/cmm/m/it/10.95 atrizfun
+cional\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 usuarios\OT1/cmr/m/n/10.95 )\OML/
+cmm/m/it/10.95 :xlsEldocumentoseencuentraenlacarpetaDirectorioActivoenelreposit
+oriocantv \OMS/cmsy/m/n/10.95 ^^@
+ []
+
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.636 
+      
+? 
+
+Overfull \hbox (5.37096pt too wide) in paragraph at lines 643--644
+[]\OT1/cmr/bx/n/10.95 Carlos Mal-don-a-do (cmal-don-a-do@covetel.com.ve)  \OT1/
+cmr/m/n/10.95 - \OT1/cmr/bx/n/10.95 2011-07-01 17:21:51 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.645 LDAP_
+           Matriz funcional (usuarios)
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.646 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.646 
+      
+? 
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.646 
+      
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.647 ...ra forma sería un duplicado del ticket #
+                                                  61
+? 
+
+! LaTeX Error: \begin{enumerate} on input line 642 ended by \end{quoting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.656 >
+        Tambien se encuentra en la dirección:
+? 
+
+! LaTeX Error: \begin{description} on input line 632 ended by \end{quoting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.658 >
+       
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.660 nombre LDAP_
+                  Matriz funcional (usuarios).xls
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.661 
+      
+? 
+
+Overfull \hbox (88.45045pt too wide) in paragraph at lines 651--661
+\OT1/cmr/m/n/10.95 https://rt.covetel.com.ve/Ticket/Attachment/767/517/Matrizno
+mbre LDAP$[]\OML/cmm/m/it/10.95 atrizfuncional\OT1/cmr/m/n/10.95 (\OML/cmm/m/it
+/10.95 usuarios\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 :xls$ 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.664 ...el.com.ve/Ticket/Attachment/767/518/LDAP_
+                                                  Matriz%20funcional%20%26%2...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.665 
+      
+? 
+
+! LaTeX Error: \begin{document} ended by \end{description}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.666 \end{description}
+                       
+? 
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.666 \end{description}
+                       
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.668 ...orio_Activo_y_Manejo_de_Identidades.ppt }
+                                                  
+? 
+! Double subscript.
+<argument> ...r Presentación Directorio_Activo_y_
+                                                  Manejo_de_Identidades.ppt 
+l.668 ...orio_Activo_y_Manejo_de_Identidades.ppt }
+                                                  
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.668 ...orio_Activo_y_Manejo_de_Identidades.ppt }
+                                                  
+? 
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `subscript' on input line 668.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `subscript' on input line 668.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `subscript' on input line 668.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `subscript' on input line 668.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `subscript' on input line 668.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.672 ...sunto] Analizar Presentación Directorio_
+                                                  Activo_y_Manejo_de_Identid...
+
+? 
+! Double subscript.
+l.672 ...alizar Presentación Directorio_Activo_y_
+                                                  Manejo_de_Identidades.ppt\...
+
+? 
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.672 ...o_Activo_y_Manejo_de_Identidades.ppt\item
+                                                  [DescripciÃ³n] Este arch...
+
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.672 ...o_de_Identidades.ppt\item[DescripciÃ³n]
+                                                   Este archivo se encuentra...
+
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.672 ...o_de_Identidades.ppt\item[DescripciÃ³n]
+                                                   Este archivo se encuentra...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:³ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.672 ...o_de_Identidades.ppt\item[DescripciÃ³n]
+                                                   Este archivo se encuentra...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.674 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.674 
+      
+? 
+
+Overfull \hbox (151.50677pt too wide) in paragraph at lines 672--674
+[]\OT1/cmr/m/n/10.95 Analizar Pre-sentaci^^Son Directorio$[]\OML/cmm/m/it/10.95
+ ctivo[][]anejo[]e[]dentidades:pptEstearchivoseencuentraenelrepositoriocantv \O
+MS/cmsy/m/n/10.95 ^^@
+ []
+
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.674 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.677 ....ve/Ticket/Attachment/767/516/Directorio_
+                                                  Activo_y_Manejo_de_Identid...
+
+? 
+! Double subscript.
+l.677 ...t/Attachment/767/516/Directorio_Activo_y_
+                                                  Manejo_de_Identidades.ppt\...
+
+? 
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.677 ...o_Activo_y_Manejo_de_Identidades.ppt\item
+                                                  [Propietario] cmaldonado\i...
+
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.677 ...nejo_de_Identidades.ppt\item[Propietario]
+                                                   cmaldonado\item[Horas Tra...
+
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.677 ...nejo_de_Identidades.ppt\item[Propietario]
+                                                   cmaldonado\item[Horas Tra...
+
+? 
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.677 ...des.ppt\item[Propietario] cmaldonado\item
+                                                  [Horas Trabajadas] 2
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.677 ...etario] cmaldonado\item[Horas Trabajadas]
+                                                   2
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.677 ...etario] cmaldonado\item[Horas Trabajadas]
+                                                   2
+? 
+
+Overfull \hbox (99.64865pt too wide) in paragraph at lines 677--677
+[]\OT1/cmr/m/n/10.95 https://rt.covetel.com.ve/Ticket/Attachment/767/516/Direct
+orio$[]\OML/cmm/m/it/10.95 ctivo[][]anejo[]e[]dentidades:pptcmaldonado[][]$ 
+ []
+
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.677 ...etario] cmaldonado\item[Horas Trabajadas]
+                                                   2
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 681--681
+
+ []
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 681--681
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 681--681
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 681--681
+
+ []
+
+
+! Package inputenc Error: Unicode char \u8:³ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.689 ...ActivoCANTV2003.ppt \item[DescripciÃ³n]
+                                                   \item[Propietario] cmaldo...
+
+? 
+
+! LaTeX Error: \begin{enumerate} on input line 692 ended by \end{quoting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.715 >
+        la terminología
+? 
+
+! LaTeX Error: \begin{description} on input line 687 ended by \end{quoting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.719 >
+        información miscelánea sobre
+? 
+[17]
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.722 > Directorio Activo        \item {
+                                        \bfseries Carlos Maldonado (cmaldona...
+
+? 
+
+Underfull \hbox (badness 10000) detected at line 722
+[][]
+ []
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.722 ...evo documento de análisis en el ticket #
+                                                  57        \item {\bfseries...
+
+? 
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.722 ...análisis en el ticket #57        \item {
+                                                  \bfseries Walter Vargas (w...
+
+? 
+
+Underfull \hbox (badness 10000) detected at line 722
+[][]
+ []
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.724 tambien se encuentra adjunto en el ticket #
+                                                 50 bajo el siguiente enlace:
+? 
+
+Overfull \hbox (7.69171pt too wide) in paragraph at lines 726--726
+[]\OT1/cmr/m/n/10.95 https://rt.covetel.com.ve/Ticket/Attachment/767/514/Direct
+orioActivoCANTV2003.ppt 
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{enumerate}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.726 ...rioActivoCANTV2003.ppt    \end{enumerate}
+                                                  
+? 
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.726 ...rioActivoCANTV2003.ppt    \end{enumerate}
+                                                  
+? 
+
+! LaTeX Error: \begin{document} ended by \end{description}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.728 \end{description}
+                       
+? 
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.728 \end{description}
+                       
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.730 ...estructura de Directorio Activo doc_003 }
+                                                  
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.730 ...estructura de Directorio Activo doc_003 }
+                                                  
+? 
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `subscript' on input line 730.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.734 ...Infraestructura de Directorio Activo doc_
+                                                  003\item[DescripciÃ³n] T...
+
+? 
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.734 ...ructura de Directorio Activo doc_003\item
+                                                  [DescripciÃ³n] Título d...
+
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.734 ...torio Activo doc_003\item[DescripciÃ³n]
+                                                   Título del documento: In...
+
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.734 ...torio Activo doc_003\item[DescripciÃ³n]
+                                                   Título del documento: In...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:³ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.734 ...torio Activo doc_003\item[DescripciÃ³n]
+                                                   Título del documento: In...
+
+? 
+
+LaTeX Warning: Command \' invalid in math mode on input line 734.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.734 ...o Activo doc_003\item[DescripciÃ³n] Tí
+                                                  tulo del documento: Infrae...
+
+? 
+! Missing { inserted.
+<to be read again> 
+                   \begingroup 
+l.734 ...o Activo doc_003\item[DescripciÃ³n] Tí
+                                                  tulo del documento: Infrae...
+
+? 
+
+LaTeX Warning: Command \i invalid in math mode on input line 734.
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.734 ...o Activo doc_003\item[DescripciÃ³n] Tí
+                                                  tulo del documento: Infrae...
+
+? 
+! You can't use `\spacefactor' in math mode.
+<argument> ...cefactor \spacefactor }\spacefactor 
+                                                  \accent@spacefactor 
+l.734 ...o Activo doc_003\item[DescripciÃ³n] Tí
+                                                  tulo del documento: Infrae...
+
+? 
+
+LaTeX Warning: Command \' invalid in math mode on input line 735.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.735 Subtitulo: Aná
+                     lisis Preliminar de la Plataforma Actual
+? 
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.735 Subtitulo: Aná
+                     lisis Preliminar de la Plataforma Actual
+? 
+! You can't use `\spacefactor' in math mode.
+<argument> ...cefactor \spacefactor }\spacefactor 
+                                                  \accent@spacefactor 
+l.735 Subtitulo: Aná
+                     lisis Preliminar de la Plataforma Actual
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.740 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.740 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.740 
+      
+? 
+Missing character: There is no � in font cmex10!
+Missing character: There is no � in font cmex10!
+Missing character: There is no � in font cmex10!
+Missing character: There is no � in font cmex10!
+
+Overfull \hbox (1103.98405pt too wide) in paragraph at lines 734--740
+[]\OT1/cmr/m/n/10.95 Crear Doc-u-men-to An^^Sali-sis de In-fraestruc-tura de Di
+-rec-to-rio Ac-ti-vo doc$[]03\OML/cmm/m/it/10.95 T[]$ 
+ []
+
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.740 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.742 ...rectorioActivoCANTV2003.ppt * Directorio_
+                                                  Activo_y_Manejo_de_Identid...
+
+? 
+! Double subscript.
+l.742 ...ctivoCANTV2003.ppt * Directorio_Activo_y_
+                                                  Manejo_de_Identidades.ppt
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.744 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.744 
+      
+? 
+
+Overfull \hbox (133.25949pt too wide) in paragraph at lines 741--744
+[]\OT1/cmr/m/n/10.95 Documentos para Analizar: * Di-rec-to-rioAc-tivo-CANTV2003
+.ppt * Directorio$[]\OML/cmm/m/it/10.95 ctivo[][]anejo[]e[]dentidades:ppt \OMS/
+cmsy/m/n/10.95 ^^C
+ []
+
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.744 
+      
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.758 ...covetel.com.ve/Ticket/Display.html?id=21#
+                                                  txn-423    \end{enumerate}
+? 
+[18]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.762 ... de Correo Corporativo Exchange doc_002 }
+                                                  
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.762 ... de Correo Corporativo Exchange doc_002 }
+                                                  
+? 
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `subscript' on input line 762.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.766 ...forma de Correo Corporativo Exchange doc_
+                                                  002\item[DescripciÃ³n] E...
+
+? 
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.766 ... Correo Corporativo Exchange doc_002\item
+                                                  [DescripciÃ³n] Escribir ...
+
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.766 ...ivo Exchange doc_002\item[DescripciÃ³n]
+                                                   Escribir un documento for...
+
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.766 ...ivo Exchange doc_002\item[DescripciÃ³n]
+                                                   Escribir un documento for...
+
+? 
+
+! Package inputenc Error: Unicode char \u8:³ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.766 ...ivo Exchange doc_002\item[DescripciÃ³n]
+                                                   Escribir un documento for...
+
+? 
+
+LaTeX Warning: Command \' invalid in math mode on input line 766.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.766 ...formal que contenga el resultado del aná
+                                                  lisis de la
+? 
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.766 ...formal que contenga el resultado del aná
+                                                  lisis de la
+? 
+! You can't use `\spacefactor' in math mode.
+<argument> ...cefactor \spacefactor }\spacefactor 
+                                                  \accent@spacefactor 
+l.766 ...formal que contenga el resultado del aná
+                                                  lisis de la
+? 
+
+LaTeX Warning: Command \' invalid in math mode on input line 767.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.767 documentació
+                   n de la plataforma de correo corporativo Exchange 2003.
+? 
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.767 documentació
+                   n de la plataforma de correo corporativo Exchange 2003.
+? 
+! You can't use `\spacefactor' in math mode.
+<argument> ...cefactor \spacefactor }\spacefactor 
+                                                  \accent@spacefactor 
+l.767 documentació
+                   n de la plataforma de correo corporativo Exchange 2003.
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.768 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.768 
+      
+? 
+Missing character: There is no � in font cmex10!
+Missing character: There is no � in font cmex10!
+Missing character: There is no � in font cmex10!
+Missing character: There is no � in font cmex10!
+
+Overfull \hbox (619.334pt too wide) in paragraph at lines 766--768
+[]\OT1/cmr/m/n/10.95 Documento An^^Sali-sis de Platafor-ma de Correo Cor-po-ra-
+ti-vo Ex-change doc$[]02\OML/cmm/m/it/10.95 Escribirundocumentoformalqueconteng
+aelresultadodelan[]lisisdeladocumentaci[]ndelaplataformadecorreocorporativoExch
+ange\OT1/cmr/m/n/10.95 2003\OML/cmm/m/it/10.95 :[]$ 
+ []
+
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.768 
+      
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.771 doc_
+          002
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.772 
+      
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.772 
+      
+? 
+! Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.772 
+      
+? 
+
+! Package inputenc Error: Unicode char \u8:³ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.795 ...tos de Exchange 2003\item[DescripciÃ³n]
+                                                   Se requiere analizar los ...
+
+? 
+
+Overfull \hbox (14.07922pt too wide) in paragraph at lines 799--807
+\OT1/cmr/m/n/10.95 ETEL, R.S. San Crist^^Sobal . Es-ta-do T^^Sachi-ra 0416-5023
+756 sip:102@asterisk.covetel.com.ve
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 810--810
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 810--810
+
+ []
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 810--810
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 810--810
+
+ []
+
+
+! Package inputenc Error: Unicode char \u8:³ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.818 ...os Directorio Activo\item[DescripciÃ³n]
+                                                   Se requiere analizar los ...
+
+? 
+! Misplaced alignment tab character &.
+<argument> ...e system@active\string >\endcsname &
+                                                  
+l.833 <br />&
+             gt; Se requiere analizar los documentos respectivos sobre el Di...
+
+? 
+! Misplaced alignment tab character &.
+<argument> ...e system@active\string >\endcsname &
+                                                  
+l.835 <br />&
+             gt; posteriormente elaborar documento
+? 
+
+! Package inputenc Error: Unicode char \u8:³ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.846 ...Documentos sobre DNS\item[DescripciÃ³n]
+                                                   Se requiere analizar los ...
+
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 851--851
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 851--851
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 851--851
+
+ []
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 851--851
+
+ []
+
+
+! Package inputenc Error: Unicode char \u8:³ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.859 ... al correo CANTV.NET\item[DescripciÃ³n]
+                                                   Se obtuvo la siguiente in...
+
+? 
+
+Overfull \hbox (27.06598pt too wide) in paragraph at lines 866--869
+\OT1/cmr/m/n/10.95 de dns-d para correo). Las con-sul-tas son aho-ra v^^S^^Pa L
+DAP ha-cia la ca-pa "ldap.ric2.cantv.net". 
+ []
+
+
+Overfull \hbox (24.84547pt too wide) in paragraph at lines 874--879
+[]\OT1/cmr/m/n/10.95 4.- No aparece en es-tos flu-jos la ca-pa AMAVIS/CLAMAV (l
+a ca-pa An-ti-SPAM/AntiVIRUS).
+ []
+
+
+Overfull \hbox (33.71896pt too wide) in paragraph at lines 874--879
+\OT1/cmr/m/n/10.95 mente por virus y con-tenido ha-cia la ca-pa An-ti-SPAM amav
+is/clamav .[]mavis.ric2.cantv.net"). 
+ []
+
+[21]
+
+! Package inputenc Error: Unicode char \u8:³ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.936 ...o 2011 Servicio DHCP\item[DescripciÃ³n]
+                                                   Título: Mesa Trabajo (pr...
+
+? 
+[22]
+Overfull \hbox (29.09476pt too wide) in paragraph at lines 971--977
+[]\OT1/cmr/m/n/10.95 Participantes: * Lidia Brice~no, GGPM/GO Proyec-to, lbrice
+@cantv.com.ve, 02125000935
+ []
+
+
+Overfull \hbox (18.587pt too wide) in paragraph at lines 971--977
+\OT1/cmr/m/n/10.95 * Di-no Gaspero, GOTID/RedCorpo, dgaspero@cantv.com.ve, 0212
+5005670 * Franklin
+ []
+
+
+Overfull \hbox (5.88802pt too wide) in paragraph at lines 971--977
+\OT1/cmr/m/n/10.95 Arau-jo, COR/PAP, fa-rauj01@cantv.com.ve, 02125006870 * Jorg
+e Blon-dell, GOPM,
+ []
+
+
+Overfull \hbox (53.41417pt too wide) in paragraph at lines 971--977
+\OT1/cmr/m/n/10.95 jblonde01@cantv.com.ve, 02125005286 * Rober-to de Oliveira, 
+GGPM, rde-oli01@cantv.com.ve
+ []
+
+[23]
+
+! Package inputenc Error: Unicode char \u8:³ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1011 ...uditoria, Ala Norte\item[DescripciÃ³n]
+                                                   Inicio de actividades rel...
+
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 1021--1021
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1021--1021
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1021--1021
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1021--1021
+
+ []
+
+
+! Package inputenc Error: Unicode char \u8:³ not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1029 ...crosoft Visio a DIA\item[DescripciÃ³n]
+                                                   Se requiere la migración...
+
+? 
+
+Overfull \hbox (14.07922pt too wide) in paragraph at lines 1037--1045
+\OT1/cmr/m/n/10.95 ETEL, R.S. San Crist^^Sobal . Es-ta-do T^^Sachi-ra 0416-5023
+756 sip:102@asterisk.covetel.com.ve
+ []
+
+[24]
+
+! LaTeX Error: \begin{enumerate} on input line 1047 ended by \end{quoting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1065 >
+         - AD OUs-Draw entire Active Directory Structure.vsd
+? 
+
+! LaTeX Error: \begin{description} on input line 1027 ended by \end{quoting}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1068 >
+         Se adjuntan ambos archivos para su respectiva conversión
+? 
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1069 >        \item {
+                       \bfseries Carlos Paredes (cparedes@covetel.com.ve)  }...
+
+? 
+
+Underfull \hbox (badness 10000) detected at line 1069
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1069 ...onversión de .vsd a .png        \item {
+                                                  \bfseries Carlos Paredes (...
+
+? 
+
+Underfull \hbox (badness 10000) detected at line 1069
+[][]
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{enumerate}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1069 ... diagramas terminados    \end{enumerate}
+                                                  
+? 
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.1069 ... diagramas terminados    \end{enumerate}
+                                                  
+? 
+
+! LaTeX Error: \begin{document} ended by \end{description}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1071 \end{description}
+                        
+? 
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.1071 \end{description}
+                        
+? 
+) [25] AED: lastpage setting LastPage (./reporte.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4774 strings out of 95086
+ 64095 string characters out of 1183254
+ 148923 words of memory out of 1500000
+ 7715 multiletter control sequences out of 10000+50000
+ 10653 words of font info for 37 fonts, out of 1200000 for 2000
+ 28 hyphenation exceptions out of 8191
+ 35i,8n,39p,1455b,478s stack positions out of 5000i,500n,6000p,200000b,5000s
+</usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmbx10.pfb></usr/share/texmf
+-texlive/fonts/type1/bluesky/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type
+1/bluesky/cm/cmcsc10.pfb></usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmmi1
+0.pfb></usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmmi12.pfb></usr/share/t
+exmf-texlive/fonts/type1/bluesky/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/t
+ype1/bluesky/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmr1
+2.pfb></usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmr6.pfb></usr/share/tex
+mf-texlive/fonts/type1/bluesky/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type
+1/bluesky/cm/cmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmsy
+10.pfb></usr/share/texmf-texlive/fonts/type1/bluesky/cm/cmti12.pfb>
+Output written on reporte.pdf (27 pages, 188271 bytes).
+PDF statistics:
+ 384 PDF objects out of 1000 (max. 8388607)
+ 182 named destinations out of 1000 (max. 131072)
+ 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+

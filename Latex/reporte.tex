@@ -1,0 +1,34 @@
+\documentclass[letterpaper,oneside,spanish]{scrartcl}
+\usepackage{geometry}
+\geometry{
+ headsep=12mm
+}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{array}
+\usepackage[usenames]{color}
+\usepackage{colortbl}
+\usepackage{graphicx}
+\usepackage[colorlinks=false]{hyperref}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\usepackage[
+ilines, 
+komastyle, 
+headsepline
+]{scrpage2}
+
+
+\usepackage{graphicx}
+
+% Para colocar Páginas n de m
+\usepackage{lastpage}
+
+\begin{document}
+\input{portada.tex}
+
+\addtocontents{toc}{\protect\thispagestyle{empty}}
+\tableofcontents
+\thispagestyle{empty}
+\setcounter{page}{0}
+\input{tickets.tex}
+\end{document}

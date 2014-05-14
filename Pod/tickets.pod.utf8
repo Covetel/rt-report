@@ -1,0 +1,47 @@
+
+=head1 57: Crear Documento Análisis de Infraestructura de Directorio Activo doc_003
+
+B<Responsable: > cmaldonado
+B<Horas Trabajadas: > 0
+
+=head2 Asunto 
+
+Crear Documento Análisis de Infraestructura de Directorio Activo doc_003
+
+=head2 Descripción
+
+Título del documento: Infraestructura de Directorio Activo CANTV
+Subtitulo: Análisis Preliminar de la Plataforma Actual
+Identificador: doc_003
+Repositorio: cantv-doc.git
+Ruta: Documentos/doc_003/
+Fuentes: Documentos/doc_003/src/
+
+Documentos para Analizar:
+* DirectorioActivoCANTV2003.ppt * Directorio_Activo_y_Manejo_de_Identidades.ppt
+* Matriz funcional (Wins).xls * LDAP_Matriz funcional (usuarios).xls
+
+Los documentos a analizar se encuentran en el repositorio cantv-info.git, en la
+carpeta "Directorio Activo" 
+
+
+
+=head2 Comentarios 
+
+=over 
+
+
+
+=item B<Walter Vargas (walter@covetel.com.ve) > - B<2011-06-30 21:17:30>
+Los diagramas correspondientes al Directorio Activo fueron migrados al formato
+DIA por Carlos Paredes y se encuentran en:
+
+https://rt.covetel.com.ve/Ticket/Display.html?id=21#txn-423
+
+
+
+=back
+
+
+
+

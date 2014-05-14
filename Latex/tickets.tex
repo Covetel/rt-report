@@ -1,0 +1,1071 @@
+
+\section{Caso 98: Analizar Documento: Descripción de Flujos y Procesos de la Plataforma de Correo de CANTV.NET }
+
+\begin{description}
+
+\item[Asunto] Analizar Documento: Descripción de Flujos y Procesos de la Plataforma de Correo de CANTV.NET\item[DescripciÃ³n] El documento se encuentra en el repositorio cantv-info.git bajo la carpeta
+cantv.net, de igual manera se adjunta el documento a este caso.\item[Propietario] cmaldonado\item[Horas Trabajadas] 8
+
+\item[Comentarios] Lista de comentarios agregados a este caso:  
+\begin{enumerate}
+        \item {\bfseries Walter Vargas (walter@covetel.com.ve)  } - {\bfseries 2011-07-17 19:14:12} \\ Se debe comparar el diagrama anexo 1 del presente documento con los diagramas
+de la página dos y cuatro del documento PDF Visio-Flujos.Correos.pdf        \item {\bfseries Walter Vargas (walter@covetel.com.ve)  } - {\bfseries 2011-07-17 20:01:01} \\ El diagrama de la página 4 del documento Visio-Flujos.Correos.pdf es
+exactamente igual al diagrama de la página 21 del documento
+INST-ODA-OAI-042-flujos-de-correo.pdf
+
+Se adjuntan las imágenes de la comparación.        \item {\bfseries Walter Vargas (walter@covetel.com.ve)  } - {\bfseries 2011-07-17 20:09:38} \\ En nuestro caso, nos importan los flujos que afecten al correo para el dominio
+cantv.com.ve.
+
+El flujo F1 afecta todo el correo entrante generado por MTAs o MTUs a dominios
+cuyo puntero MX corresponda a RELAY.CANTV.NET
+
+En este caso, el puntero MX del dominio cantv.com.ve corresponde a
+RELAY.CANTV.NET como se ve en la siguiente prueba con el comando dig
+
+$ dig @200.44.32.12 cantv.com.ve MX ; <<>> DiG 9.6.0-APPLE-P2 <<>>
+@200.44.32.12 cantv.com.ve MX ; (1 server found) ;; global options: +cmd ;; Got
+answer: ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 13132 ;; flags: qr
+rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0 ;; QUESTION SECTION:
+;cantv.com.ve. IN MX ;; ANSWER SECTION: cantv.com.ve. 3600 IN MX 10
+relay.cantv.net. ;; Query time: 76 msec ;; SERVER:
+200.44.32.12#53(200.44.32.12) ;; WHEN: Sun Jul 17 15:38:05 2011 ;; MSG SIZE
+rcvd: 61        \item {\bfseries Walter Vargas (walter@covetel.com.ve)  } - {\bfseries 2011-07-17 20:32:15} \\ Hemos intentado registrar una cuenta de correo en CANTV.NET para hacer algunas
+pruebas, pero esto no ha sido posible, debido a que el formulario de registro
+de cuenta nueva [1] no esta funcionando.
+
+[1]
+http://registro.cantv.net/main/inicio.asp?CATALOG_PLAN=FREEMAIL_R_BF&imagen=correo_e_gratuitol.gif        \item {\bfseries Walter Vargas (walter@covetel.com.ve)  } - {\bfseries 2011-07-17 20:56:31} \\ Para realizar una pequeña prueba de correo, actualizamos los datos y
+solicitamos la contraseña nueva para la cuenta
+
+walter_varg1@cantv.net que corresponde a uno de los servicios de ABA que
+Covetel posee.
+
+El proceso tomo unos 10 minutos, luego de eso, se escribió un correo desde la
+cuenta walter_varg1@cantv.net a la cuenta waltervargas@gmail.com. Este correo
+fue clasificado como SPAM por los servidores de Google.
+
+Es importante determinar la razón por la cual esta cuenta de correo esta
+marcada como SPAM por parte de Google.        \item {\bfseries Walter Vargas (walter@covetel.com.ve)  } - {\bfseries 2011-07-17 22:41:39} \\ El documento indica en la sección C.1 "Flujo de mensajes de la CAPA SMTP" en el
+flujo F06 la siguiente descripción entre otras:
+
+i. Envío en formato SMS a RA.MOVILNET.COM.VE, de notificación de recepción de
+correos en cuantas del dominio CANTV.NET que cuentan con el servicio TUN-TUN
+(de correos recibidos por la capa RELAY.CANTV.NET).
+
+Nos preguntamos si este documento esta realmente actualizado, pues el servicio
+TUN-TUN de CANTV.NET actualmente esta fuera de servicio, de hecho esto se
+comprueba entrando a la página web www.tun-tun.com y podrá observar un texto
+que dice "En estos momentos este servicio está inactivo".
+
+Se adjunta el screenshot de la página www.tun-tun.com        \item {\bfseries Walter Vargas (walter@covetel.com.ve)  } - {\bfseries 2011-07-17 23:02:55} \\ Se asume que el acrónimo NDR en el párrafo ii. de la sección C.1 del documento
+hace referencia al acrónimo NDR que significa: Non Delivery Report/Recelpt,
+correo electrónico automático que envía el sistema de correo informando a quien
+envía el correo acerca de un problema en la entrega del correo.
+
+Referencias:
+
+http://en.wikipedia.org/wiki/Non_delivery_report        \item {\bfseries Walter Vargas (walter@covetel.com.ve)  } - {\bfseries 2011-07-17 23:27:31} \\ Se debe preguntar a los funcionarios de CANTV.NET de que se trata o que
+significa DNS-D.
+
+Nuestro equipo supone que es un servicio que permite consultarle vía el
+protocolo DNS los atributos "homedirectory" y "quota" de una cuenta de correo.
+
+DNS-D interactúa con la capa POSTMAN y la base de datos de el BOSS de CANTV
+según el anexo 1 de este documento.        \item {\bfseries Carlos Maldonado (cmaldonado@covetel.com.ve)  } - {\bfseries 2011-08-11 18:29:38} \\ documento culminado, segunda versión pendiente con imágenes actualizadas sobre el flujo de datos en la plataforma de correo, ya que han cambiado ciertos aspectos    \end{enumerate}
+
+\end{description}
+
+\section{Caso 93: Analizar Documento Diseño y Operación Solución OpenLDAP }
+
+\begin{description}
+
+\item[Asunto] Analizar Documento Diseño y Operación Solución OpenLDAP\item[DescripciÃ³n] Se adjunta el documento para su análisis, también se encuentra en el
+repositorio cantv-info en la carpeta cantv.net\item[Propietario] walter\item[Horas Trabajadas] 42
+
+\item[Comentarios] Lista de comentarios agregados a este caso:  
+\begin{enumerate}
+        \item {\bfseries Walter Vargas (walter@covetel.com.ve)  } - {\bfseries 2011-07-18 22:42:19} \\ En la página 4 del presente documento se observa un ejemplo del esquema que
+esta utilizando el servidor OpenLDAP de CANTV.NET para representar una entrada
+en el directorio. Están utilizando el siguiente esquema para representar el
+atributo DN de la entrada: dn:
+mail=rmartinezp@cantv.net,ou=hash_qrQR,ou=correo,ou=isp,dc=cantv,dc=net Este
+esquema para construir el atributo DN no es estándar debido a que no utiliza
+los atributos sugeridos en la tabla de la sección 3 en el RFC 4514 descrita a
+continuación: String X.500 AttributeType ------
+-------------------------------------------- CN commonName (2.5.4.3) L
+localityName (2.5.4.7) ST stateOrProvinceName (2.5.4.8) O organizationName
+(2.5.4.10) OU organizationalUnitName (2.5.4.11) C countryName (2.5.4.6) STREET
+streetAddress (2.5.4.9) DC domainComponent (0.9.2342.19200300.100.1.25) UID
+userId (0.9.2342.19200300.100.1.1) Se adjunta el RFC citado.        \item {\bfseries Walter Vargas (walter@covetel.com.ve)  } - {\bfseries 2011-07-19 12:16:12} \\ El documento indica que OpenLDAP no soporta más de 32 base de datos.
+
+Esta información no fue encontrada en el manual oficial de OpenLDAP, se procede 
+a realizar una prueba técnica para confirmar esta información. 
+
+        \item {\bfseries Walter Vargas (walter@covetel.com.ve)  } - {\bfseries 2011-07-19 13:36:09} \\ El servicio DNS-D ya no es utilizado por la capa POSTMAN, 
+ahora las consultas de los atributos homedirectory y quota 
+son vía LDAP hacia la capa "ldap.ric2.cantv.net" 
+
+Esta información se encuentra en el correo envíado a Roberto de Oliveira por
+parte de Reynaldo R. Martinez en fecha 02 Jun 2011 en donde dice textualmente:
+
+ 2.- La capa postman no hace las consultas ya vía DNS-D (de hecho no
+ existe esa capa de dns-d para correo). Las consultas son ahora vía LDAP
+ hacia la capa "ldap.ric2.cantv.net".        \item {\bfseries Walter Vargas (walter@covetel.com.ve)  } - {\bfseries 2011-07-19 13:47:30} \\ Saludos Roberto,  
+
+La prueba que se esta haciendo es crear más de 32 bases de datos para OpenLDAP
+en prueba y levantar el servicio para confirmar este límite que indica el
+documento de CANTV.NET . 
+
+De igual manera seria bueno consultarle a Reynaldo esta información.         \item {\bfseries Walter Vargas (walter@covetel.com.ve)  } - {\bfseries 2011-07-19 14:42:49} \\ Saludos Roberto,  
+
+En base a tu solicitud vamos a dejar las pruebas y continuar, esperando
+entonces que sea consultada esta información al personal de CANTV.NET        \item {\bfseries Walter Vargas (walter@covetel.com.ve)  } - {\bfseries 2011-07-27 23:23:45} \\ Saludos,
+
+El documento de el presente ticket indica en un parrafo textualmente lo
+siguiente: 
+
+ NOTA: Hasta el momento los únicos clientes de aplicaciones son courier-imap y
+ los scripts de control que son utilizados vía línea de comando, sin embargo,
+ se está planificando usar Sendmail con autenticación vía LDAP (smtp
+ autenticado) para lo cual se adaptará el cliente “cyrus-sasl” el cual es
+ utilizado por sendmail como vía de autenticación hacia LDAP.
+
+Es importante saber si el servicio Sendmail ya esta utilizando autenticación
+vía LDAP y cuales son los detalles de esta configuración.         \item {\bfseries Walter Vargas (walter@covetel.com.ve)  } - {\bfseries 2011-07-28 13:10:16} \\ A continuación, información suministrada por Reynaldo Martínez vía correo
+eletrónico el día de hoy a las 8 de la mañana. 
+
+ Saludos Walter, 
+ 
+ Efectivamente ya sendmail está usando LDAP pero no solo vía cyrus-sasl. Estamos
+ usando LDAP_ROUTING desde Sendmail para la validación de los mail-to/rcpt-to de
+ cuentas @cantv.net y de dominios virtuales en el ISP (todos en LDAP) y también
+ sendmail con cyrus-sasl para SMTP autenticado (SMTP-AUTH).
+ 
+ También estamos usando LDAP para una validación primaria en la plataforma
+ Webmail.
+ 
+ Mas detalles no puedo darte sin autorización de Ender Mujica (lease,  los
+ detalles exáctos de nuestra configuración) solo puedo decirte que ya estamos
+ usando SENDMAIL con LDAP para las dos funciones mencionadas (ldap-routing y
+ smtp-auth con cyrus-sasl).
+ 
+ Atentamente, 
+ 
+ Reynaldo R. Martinez P.
+ Consultor de Operaciones TI Centralizadas
+ Coordinación Soporte Middleware
+ GGTO - GOC Gerencia Operaciones TI Centralizadas
+ Telf.: +58 (212) 263-4526
+ e-mail: rmarti05@cantv.com.ve        \item {\bfseries Walter Vargas (walter@covetel.com.ve)  } - {\bfseries 2011-07-28 13:17:27} \\ Saludos,  
+
+Se requiere por favor solicitarle al Sr. Ender Mujica autorize al Sr. Reinaldo
+Martínez suministrarnos información sobre los detalles técnicos de la
+configuración de la plataforma de correo.
+
+Este intercambio de información, puede realizarse a través de la plataforma de
+gestión de casos. 
+
+En dado caso de que sea requerido un usuario para Reinaldo Martínez, por favor
+solicitarlo. 
+
+Gracias.    \end{enumerate}
+
+\end{description}
+
+\section{Caso 92: Construir esquema Documento Análisis CANTV.NET  }
+
+\begin{description}
+
+\item[Asunto] Construir esquema Documento Análisis CANTV.NET \item[DescripciÃ³n] Se debe construir el esquema para elaborar el documento de Análisis de
+CANTV.NET\item[Propietario] Nobody\item[Horas Trabajadas] 0
+
+\item[Comentarios] Lista de comentarios agregados a este caso:  
+\begin{enumerate}
+        \item {\bfseries  } - {\bfseries } \\         \item {\bfseries  } - {\bfseries } \\         \item {\bfseries  } - {\bfseries } \\         \item {\bfseries  } - {\bfseries } \\     \end{enumerate}
+
+\end{description}
+
+\section{Caso 91: Migrar Diagramas CANTV.NET a DIA }
+
+\begin{description}
+
+\item[Asunto] Migrar Diagramas CANTV.NET a DIA\item[DescripciÃ³n] Se adjuntan los diagramas que deben ser migrados a DIA.\item[Propietario] cparedes\item[Horas Trabajadas] 16
+
+\item[Comentarios] Lista de comentarios agregados a este caso:  
+\begin{enumerate}
+        \item {\bfseries Lilibeth Ramirez (lilibeth@covetel.com.ve)  } - {\bfseries 2011-07-12 18:45:21} \\ Migrando los diagramas del documento Visio-Flujo.Correos.pdf a formato libre
+.DIA        \item {\bfseries Lilibeth Ramirez (lilibeth@covetel.com.ve)  } - {\bfseries 2011-07-13 17:56:42} \\ Se realizó una comparación de los archivos MAIL.Platform.Mayo.02.2011.pdf y
+cantv_net.pdf y se determino que es la misma información en ambos documentos,
+es por ello que se descarta MAIL.Platform.Mayo.02.2011.pdf y se renombre el
+archivo cantv_net.pdf a cantv_net_plataforma_mayo_2011.pdf        \item {\bfseries Lilibeth Ramirez (lilibeth@covetel.com.ve)  } - {\bfseries 2011-07-13 19:42:47} \\ Se actualizo la información correspondiente a los documentos del repositorio
+cantv-info, en donde fueron actualizados los nombres de algunos archivos y
+fueron eliminados aquellos que se encontraban repetidos        \item {\bfseries Lilibeth Ramirez (lilibeth@covetel.com.ve)  } - {\bfseries 2011-07-13 23:12:25} \\ Se migro el diagrama de la página 1 del documento Visio-Flujo.Correos.pdf a Dia
+y a PNG
+
+Se adjunta los archivos a este ticket        \item {\bfseries Lilibeth Ramirez (lilibeth@covetel.com.ve)  } - {\bfseries 2011-07-14 03:24:52} \\ Se migro el diagrama de la página 2 del documento Visio-Flujo.Correo.pdf, se
+adjuntan los diagramas en formato .dia y en formato .png        \item {\bfseries Lilibeth Ramirez (lilibeth@covetel.com.ve)  } - {\bfseries 2011-07-14 03:27:08} \\ Se migro el diagrama de la página 2 del documento Visio-Flujo.Correo.pdf, se
+adjuntan los diagramas en formato .dia y en formato .png        \item {\bfseries Lilibeth Ramirez (lilibeth@covetel.com.ve)  } - {\bfseries 2011-07-14 03:28:31} \\ El diagrama que se encuentra en la página 4 del documento
+Visio-Flujo.Correo.pdf, es identico al diagrama de la página 1, es por ello que
+no se toma en cuenta ya que fue migrado anteriormente        \item {\bfseries Carlos Paredes (cparedes@covetel.com.ve)  } - {\bfseries 2011-07-14 03:39:15} \\ Migrado diagrama mail.cantv.net perteneciente a la pagina 1 del documento
+cantv_net_plataforma_mayo_2011.pdf.
+
+se adjunta diagrama        \item {\bfseries Carlos Paredes (cparedes@covetel.com.ve)  } - {\bfseries 2011-07-14 03:40:55} \\ Migrado diagrama relay.cantv.net perteneciente a la pagina 2 del documento
+cantv_net_plataforma_mayo_2011.pdf.
+
+se adjunta diagrama        \item {\bfseries Carlos Paredes (cparedes@covetel.com.ve)  } - {\bfseries 2011-07-14 03:41:47} \\ Migrado diagrama postman.ric2.cantv.net perteneciente a la pagina 3 del
+documento cantv_net_plataforma_mayo_2011.pdf.
+
+se adjunta diagrama        \item {\bfseries Carlos Paredes (cparedes@covetel.com.ve)  } - {\bfseries 2011-07-15 20:38:25} \\ Migrado diagrama dom-especial.ric2.cantv.net perteneciente a la pagina 4 del
+documento cantv_net_plataforma_mayo_2011.pdf.
+
+se adjunta diagrama        \item {\bfseries Carlos Paredes (cparedes@covetel.com.ve)  } - {\bfseries 2011-07-15 20:39:33} \\ Migrado diagrama pop-imap.cantv.net perteneciente a la pagina 5 del documento
+cantv_net_plataforma_mayo_2011.pdf.
+
+se adjunta diagrama        \item {\bfseries Carlos Paredes (cparedes@covetel.com.ve)  } - {\bfseries 2011-07-15 20:40:44} \\ Actualización de Tiempo en los 2 ultimos diagramas migrados
+(dom-especial.ric2.cantv.net y pop-imap.cantv.net        \item {\bfseries Carlos Paredes (cparedes@covetel.com.ve)  } - {\bfseries 2011-07-15 20:41:33} \\ Migrado diagrama amavis-clamav perteneciente a la pagina 6 del documento
+cantv_net_plataforma_mayo_2011.pdf.
+
+se adjunta diagrama        \item {\bfseries Carlos Paredes (cparedes@covetel.com.ve)  } - {\bfseries 2011-07-15 20:42:31} \\ Migrado diagrama ldap-openldap perteneciente a la pagina 7 del documento
+cantv_net_plataforma_mayo_2011.pdf.
+
+se adjunta diagrama        \item {\bfseries Carlos Paredes (cparedes@covetel.com.ve)  } - {\bfseries 2011-07-15 20:43:53} \\ Migración de los diagramas en los archivos Visio-Flujo.Correos.pdf y
+MAIL.Platform.Mayo.02.2011.pdf concluida.        \item {\bfseries Lilibeth Ramirez (lilibeth@covetel.com.ve)  } - {\bfseries 2011-07-17 20:04:53} \\ Fue Corregido el diagrama de la página 2 del documento Visio-Flujo.Correo.pdf,
+se adjuntan los diagramas en formato .dia y en formato .png        \item {\bfseries Lilibeth Ramirez (lilibeth@covetel.com.ve)  } - {\bfseries 2011-07-17 20:10:19} \\ En la leyenda Color Amarillo de los Diagramas de la página 2 y 3 del Documento
+Visio-Flujo.Correos.pdf, que son identicas a las que encontramos en el
+documento INST-ODA-OAI-042-flujos-de-correo.pdf en la página 21 y 22 se
+corrigio el siguiente texto:
+
+Servicio Público balaceado
+
+Y quedo corregido de la siguiente forma:
+
+Servicio Público balanceado        \item {\bfseries Carlos Maldonado (cmaldonado@covetel.com.ve)  } - {\bfseries 2011-07-27 19:18:17} \\ Los diagramas: Flujo-Correo_02.dia y Flujo-Correo_01.dia deben ser reformados y
+corregidos para que correspondan con el estado actual de la organización tal y
+como se reseña en el attachment:
+
+correo_reinaldo.txt
+
+del ticket #98
+
+https://rt.covetel.com.ve/Ticket/Display.html?id=98
+
+CM    \end{enumerate}
+
+\end{description}
+
+\section{Caso 90: Crear Documento Análisis CANTV.NET }
+
+\begin{description}
+
+\item[Asunto] Crear Documento Análisis CANTV.NET\item[DescripciÃ³n] Se requiere construir un documento de Análisis de la plataforma actual de
+correo de CANTV.NET\item[Propietario] walter\item[Horas Trabajadas] 51
+
+\item[Comentarios] Lista de comentarios agregados a este caso:  
+\begin{enumerate}
+        \item {\bfseries Lilibeth Ramirez (lilibeth@covetel.com.ve)  } - {\bfseries 2011-08-01 21:17:19} \\ Se debe corregir un error de transcripción en el documento de análisis doc_005,
+especificamente en el Título: 2.1.7. F06, en:
+
+1. Envío en formato SMS a RA.MOVILNET.COM.VE, de notificación de recepción de
+correos en "cuantas" del dominio CANTV.NET que cuentan con el servicio TUN-TUN
+(de correos recibidos por la capa RELAY.CANTV.NET).
+
+Se debe cambiar " cuantas " por cuentas        \item {\bfseries Lilibeth Ramirez (lilibeth@covetel.com.ve)  } - {\bfseries 2011-08-01 21:28:42} \\ En le punto 2.1.13. F09. no se índica a quién fue generado el NDR:
+
+6. NDR a generados por “tiempo excedido para la entrega” de correos enviados a
+Domi- nios especiales (de correos recibidos por la capa RELAY.CANTV.NET y
+MAIL.CANTV.NET).
+
+Verificar si está o no incompleta ésta información.        \item {\bfseries Lilibeth Ramirez (lilibeth@covetel.com.ve)  } - {\bfseries 2011-08-01 21:42:00} \\ Ocurre lo mismo en los puntos:
+
+2.1.11. F08
+2.1.14. F16
+
+El Lun Ago 01 17:28:42 2011, lilibeth escribió:
+> En le punto 2.1.13. F09. no se índica a quién fue generado el NDR:
+>
+> 6. NDR a generados por “tiempo excedido para la entrega” de correos
+> enviados a
+> Domi- nios especiales (de correos recibidos por la capa
+> RELAY.CANTV.NET y
+> MAIL.CANTV.NET).
+>
+> Verificar si está o no incompleta ésta información.        \item {\bfseries Lilibeth Ramirez (lilibeth@covetel.com.ve)  } - {\bfseries 2011-08-01 21:43:38} \\ Se debe corregir en el punto 3.2.2. Hardware Utilizado: Recomendaciones ->
+Disco duros: la palabra " recmoned " por recomendó.        \item {\bfseries Walter Vargas (walter@covetel.com.ve)  } - {\bfseries 2011-08-03 01:59:07} \\ Se requiere una descripción formal del término GOTIC-CCUN, por favor enviar en cuanto puedan la descripción formal de este término para agregarlo al glosario        \item {\bfseries Walter Vargas (walter@covetel.com.ve)  } - {\bfseries 2011-08-03 02:00:52} \\ Se requiere la información del servicio de almacenamiento al que se refieren en los documentos de CANTV.NET bajo el término FILER        \item {\bfseries Walter Vargas (walter@covetel.com.ve)  } - {\bfseries 2011-08-03 12:10:18} \\ Se requiere información formal y detallada sobre el término MGMT utilizado en CANTV.NET        \item {\bfseries Walter Vargas (walter@covetel.com.ve)  } - {\bfseries 2011-08-03 12:11:43} \\ Se requieren las especificaciones del appliance CISCO-ACE utilizado para balancear la carga de los servidores de la plataforma de correo CANTV.NET        \item {\bfseries Walter Vargas (walter@covetel.com.ve)  } - {\bfseries 2011-08-10 18:36:23} \\ Es posible conocer el tiempo preciso que le toma al programa /usr/local/bin/boss2ldif.pl en generar los archivos  en formato  LDIF  bajo el directorio /var/tmp ?         \item {\bfseries Walter Vargas (walter@covetel.com.ve)  } - {\bfseries 2011-08-10 21:29:56} \\ Gracias por la pronta respuesta Reynaldo, 
+
+Yo calcule 15.5166666666667 minutos.
+
+Saludos. 
+
+El Mié Ago 10 14:56:01 2011, RMarti05@Cantv.com.ve escribió:
+> Buenas tardes,
+> 
+> El script que regenera toda la BD de LDAP anota en un archivo los
+> tiempos de inicio y finalización de cada paso importante de la
+> reconstrucción. Hace poco migramos los servidores LDAP a equipos mas
+> potentes y nos tocó reconstruir. Este es el segmento relativo a lo que
+> preguntas:
+> 
+> Iniciado proceso de reconstruccion LDIF-BOSS. Tiempo de arranque: Wed
+> Jul 13 15:59:57 VET 2011
+> Finalizado proceso de reconstruccion LDIF-BOSS. Tiempo final: Wed Jul
+> 13
+> 16:15:28 VET 2011
+> 
+> Poco mas de 15 minutos para reconstruir los LDIF, pero este es SOLO un
+> paso de todo el proceso de recontrucción y ese tiempo está sujeto a
+> las
+> condiciones de BOSS (la base de dato central) que no controlamos.
+> Luego
+> esos LDIF tienen que ser incluidos en el backend (berkeley db's). Eso
+> tarda también. El proceso "completo" hasta dejar el LDAP completamente
+> operativo tarda cerca de 30 minutos (eso incluye los 15 minutos de
+> boss2ldif).
+> 
+> Atentamente,
+> 
+> Reynaldo R. Martinez P.
+> Consultor de Operaciones TI Centralizadas
+> Coordinación Soporte Middleware
+> GGTO - GOC Gerencia Operaciones TI Centralizadas
+> Telf.: +58 (212) 263-4526
+> e-mail: rmarti05@cantv.com.ve
+> 
+> 
+> On 08/10/2011 02:06 PM, Walter Vargas via RT wrote:
+> > Es posible conocer el tiempo preciso que le toma al programa
+> /usr/local/bin/boss2ldif.pl en generar los archivos  en formato  LDIF
+> bajo el directorio /var/tmp ?
+> >
+
+        \item {\bfseries Carlos Maldonado (cmaldonado@covetel.com.ve)  } - {\bfseries 2011-08-11 22:25:09} \\ añadiendo tiempo trabajado    \end{enumerate}
+
+\end{description}
+
+\section{Caso 76: Analizar Documento: Configuracion del Servicio DNS corporativo de CANTV.doc }
+
+\begin{description}
+
+\item[Asunto] Analizar Documento: Configuracion del Servicio DNS corporativo de CANTV.doc\item[DescripciÃ³n] El documento se encuentra en el repositorio cantv-info.git
+
+https://rt.covetel.com.ve/Ticket/Attachment/760/508/Configuracion%20del%20Servicio%20DNS%20corporativo%20de%20CANTV.doc\item[Propietario] cparedes\item[Horas Trabajadas] 3
+
+\item[Comentarios] Lista de comentarios agregados a este caso:  
+\begin{enumerate}
+        \item {\bfseries Carlos Paredes (cparedes@covetel.com.ve)  } - {\bfseries 2011-07-01 22:40:34} \\ Analisis del Documento de configuracion de configuración del servicio DNS        \item {\bfseries Carlos Paredes (cparedes@covetel.com.ve)  } - {\bfseries 2011-07-05 23:16:22} \\ Conclusión de análisis del documento Configuración del Servicio DNS corporativo
+de CANTV donde se especifican los servidores pertenecientes al servicio DNS
+alpha01, alpha02 alfha03, alpha04, dnscorp0a y dnscorp0b, su configuración y
+sus sites.    \end{enumerate}
+
+\end{description}
+
+\section{Caso 74: Analizar Documento: CANTVOperaciones2005.doc }
+
+\begin{description}
+
+\item[Asunto] Analizar Documento: CANTVOperaciones2005.doc\item[DescripciÃ³n] https://rt.covetel.com.ve/Ticket/Attachment/793/556/CANTVOperaciones2005.doc\item[Propietario] lilibeth\item[Horas Trabajadas] 3
+
+\item[Comentarios] Lista de comentarios agregados a este caso:  
+\begin{enumerate}
+        \item {\bfseries  } - {\bfseries } \\         \item {\bfseries  } - {\bfseries } \\         \item {\bfseries  } - {\bfseries } \\         \item {\bfseries  } - {\bfseries } \\     \end{enumerate}
+
+\end{description}
+
+\section{Caso 73: Analizar Documento: Situación actual y análisis de espacio de la Plataforma de Mensajeria Corporativa.doc }
+
+\begin{description}
+
+\item[Asunto] Analizar Documento: Situación actual y análisis de espacio de la Plataforma de Mensajeria Corporativa.doc\item[DescripciÃ³n] https://rt.covetel.com.ve/Ticket/Attachment/793/565/Situacio%5CxCC%5Cx81n%20actual%20y%20ana%5CxCC%5Cx81lisis%20de%20espacio%20de%20la%20Plataforma%20de%20Mensajeria%20Corporativa.doc\item[Propietario] lilibeth\item[Horas Trabajadas] 5
+
+\item[Comentarios] Lista de comentarios agregados a este caso:  
+\begin{enumerate}
+        \item {\bfseries Lilibeth Ramirez (lilibeth@covetel.com.ve)  } - {\bfseries 2011-07-06 07:21:38} \\ Contiene información actualizada referente a:
+
+Los Servidores
+Los Buzones de correo
+Listas de Distribución
+Contactos
+Usuarios con direcciones de correo externas
+
+Además de tener información actualizada de la Distribución actual por cluster        \item {\bfseries Lilibeth Ramirez (lilibeth@covetel.com.ve)  } - {\bfseries 2011-07-06 07:26:42} \\ Se utilizó parte de la información correspondiente a los buzones y su
+distribución. La más actualizada luego de ser comparada con los demás
+documentos que contienen información acerca de estos puntos.    \end{enumerate}
+
+\end{description}
+
+\section{Caso 72: Analizar Documento: Matriz_de_interfaces_(proveedores).xls }
+
+\begin{description}
+
+\item[Asunto] Analizar Documento: Matriz_de_interfaces_(proveedores).xls\item[DescripciÃ³n] https://rt.covetel.com.ve/Ticket/Attachment/793/562/Matriz_de_interfaces_%26%2340%3Bproveedores%26%2341%3B.xls\item[Propietario] lilibeth\item[Horas Trabajadas] 2
+
+\item[Comentarios] Lista de comentarios agregados a este caso:  
+\begin{enumerate}
+        \item {\bfseries Carlos Paredes (cparedes@covetel.com.ve)  } - {\bfseries 2011-07-06 01:33:09} \\ En el documento suministrado la información no esta definida con exactitud, ya
+que se presenta a manera de ejemplo. El personal del proyecto de migración de
+CANTV debe definir y corroborar esta información.        \item {\bfseries Carlos Paredes (cparedes@covetel.com.ve)  } - {\bfseries 2011-07-06 01:35:58} \\ En el documento suministrado la información no esta definida con exactitud, ya
+que se presenta a manera de ejemplo. El personal del proyecto de migración de
+CANTV debe definir y corroborar esta información.        \item {\bfseries Lilibeth Ramirez (lilibeth@covetel.com.ve)  } - {\bfseries 2011-07-06 07:14:47} \\ Este documento no pudo ser utilizado para la elaboración del análisis del
+servicio Exchange Server 2003, debido a que no se tiene conocimiento de si es
+un ejemplo (el contenido del documento esta comentado como Ejemplo) o si es
+información actual.    \end{enumerate}
+
+\end{description}
+
+\section{Caso 71: Analizar Documento: Exchange Topology.jpg  }
+
+\begin{description}
+
+\item[Asunto] Analizar Documento: Exchange Topology.jpg \item[DescripciÃ³n] https://rt.covetel.com.ve/Ticket/Attachment/793/553/Exchange%20Topology.jpg\item[Propietario] lilibeth\item[Horas Trabajadas] 1
+
+\item[Comentarios] Lista de comentarios agregados a este caso:  
+\begin{enumerate}
+        \item {\bfseries  } - {\bfseries } \\         \item {\bfseries  } - {\bfseries } \\         \item {\bfseries  } - {\bfseries } \\         \item {\bfseries  } - {\bfseries } \\     \end{enumerate}
+
+\end{description}
+
+\section{Caso 70: Analizar Documento: Exchange Topology 2006.jpg }
+
+\begin{description}
+
+\item[Asunto] Analizar Documento: Exchange Topology 2006.jpg\item[DescripciÃ³n] https://rt.covetel.com.ve/Ticket/Attachment/793/554/Exchange%20Topology%202006.jpg\item[Propietario] lilibeth\item[Horas Trabajadas] 2
+
+\item[Comentarios] Lista de comentarios agregados a este caso:  
+\begin{enumerate}
+        \item {\bfseries  } - {\bfseries } \\         \item {\bfseries  } - {\bfseries } \\         \item {\bfseries  } - {\bfseries } \\         \item {\bfseries  } - {\bfseries } \\     \end{enumerate}
+
+\end{description}
+
+\section{Caso 69: Analizar Documento: Configuración del Storage Exchnas.doc }
+
+\begin{description}
+
+\item[Asunto] Analizar Documento: Configuración del Storage Exchnas.doc\item[DescripciÃ³n] https://rt.covetel.com.ve/Ticket/Attachment/793/558/Configuracio%5CxCC%5Cx81n%20del%20Storage%20Exchnas.doc\item[Propietario] lilibeth\item[Horas Trabajadas] 1
+
+\item[Comentarios] Lista de comentarios agregados a este caso:  
+\begin{enumerate}
+        \item {\bfseries  } - {\bfseries } \\         \item {\bfseries  } - {\bfseries } \\         \item {\bfseries  } - {\bfseries } \\         \item {\bfseries  } - {\bfseries } \\     \end{enumerate}
+
+\end{description}
+
+\section{Caso 68: Analizar Documento: DescripcionGeneralDelSistemadeMensajeriadeCantv.doc }
+
+\begin{description}
+
+\item[Asunto] Analizar Documento: DescripcionGeneralDelSistemadeMensajeriadeCantv.doc\item[DescripciÃ³n] El documento se encuentra en el repositorio cantv-info.git
+
+https://rt.covetel.com.ve/Ticket/Attachment/793/559/DescripcionGeneralDelSistemadeMensajeriadeCantv.doc\item[Propietario] lilibeth\item[Horas Trabajadas] 11
+
+\item[Comentarios] Lista de comentarios agregados a este caso:  
+\begin{enumerate}
+        \item {\bfseries Lilibeth Ramirez (lilibeth@covetel.com.ve)  } - {\bfseries 2011-07-01 22:47:29} \\ Durante el análisis del documento:
+DescripcionGeneralDelSistemadeMensajeriadeCantv.doc se determino lo siguiente:
+
+La información referente a Plataforma Exchange de CANTV, es coincidente con los
+documentos CantvOperaciones 2007.doc y NAS_EXCHANGE.ppt. Además de coincidir
+con el Diagrama Red Exchange.jpg y Exchange Topology.jpg
+
+Presenta algunas variaciones con respecto al Esquema de almacenamiento de los
+servidores Exchange que deben ser verificados por el personal de Cantv
+
+Las rutas de registros de las transacciones en el Storage Group es la misma en
+el Documento de CantvOperaciones 2007.doc
+
+Las rutas de los archivos de Base de Datos es la misma en el Documento
+CantvOperaciones 2007.doc
+
+Los tipos de clientes coinciden en el documento solo se encuentra en este
+documento, pero persiste la duda de si se encuentra o no actualizada esta
+información
+
+La Distribución de los Buzones de Correos por Storage Groupse se encuentra
+desactualizada en este documento, por ello fue tomada del documento Situación
+actual y análisis de espacio de la Plataforma de Mensajeria Corporativa.doc
+
+El número de usuarios de Correo Cantv se encuentra desactualizado, por ello fue
+tomada la información que se encuentra en el documento Situación actual y
+análisis de espacio de la Plataforma de Mensajeria Corporativa.doc        \item {\bfseries Lilibeth Ramirez (lilibeth@covetel.com.ve)  } - {\bfseries 2011-07-06 07:34:50} \\ Este documento contenia un resumen general del servicio de Mensajeria Exchange
+Server 2003, que fue analizado para formar parte de la documentación inicial de
+éste servicio.    \end{enumerate}
+
+\end{description}
+
+\section{Caso 67: Analizar Documento: Guia de Operaciones Exchange.doc }
+
+\begin{description}
+
+\item[Asunto] Analizar Documento: Guia de Operaciones Exchange.doc\item[DescripciÃ³n] El documento se encuentra en el repositorio cantv-info.git
+
+https://rt.covetel.com.ve/Ticket/Attachment/793/560/Guia%20de%20Operaciones%20Exchange.doc\item[Propietario] lilibeth\item[Horas Trabajadas] 1
+
+\item[Comentarios] Lista de comentarios agregados a este caso:  
+\begin{enumerate}
+        \item {\bfseries  } - {\bfseries } \\         \item {\bfseries  } - {\bfseries } \\         \item {\bfseries  } - {\bfseries } \\         \item {\bfseries  } - {\bfseries } \\     \end{enumerate}
+
+\end{description}
+
+\section{Caso 66: Analizar Documento: Red Exchange.jpg }
+
+\begin{description}
+
+\item[Asunto] Analizar Documento: Red Exchange.jpg\item[DescripciÃ³n] El documento se encuentra en el repositorio cantv-info.git
+
+https://rt.covetel.com.ve/Ticket/Attachment/793/555/Red%20Exchange.jpg\item[Propietario] lilibeth\item[Horas Trabajadas] 1
+
+\item[Comentarios] Lista de comentarios agregados a este caso:  
+\begin{enumerate}
+        \item {\bfseries  } - {\bfseries } \\         \item {\bfseries  } - {\bfseries } \\         \item {\bfseries  } - {\bfseries } \\         \item {\bfseries  } - {\bfseries } \\     \end{enumerate}
+
+\end{description}
+
+\section{Caso 65: Analizar Documento: Manual de Operaciones - CANTV-11-2005.doc }
+
+\begin{description}
+
+\item[Asunto] Analizar Documento: Manual de Operaciones - CANTV-11-2005.doc\item[DescripciÃ³n] El documento se encuentra en el repositorio cantv-info.git
+
+https://rt.covetel.com.ve/Ticket/Attachment/793/561/Manual%20de%20Operaciones%20-%20CANTV-11-2005.doc\item[Propietario] lilibeth\item[Horas Trabajadas] 3
+
+\item[Comentarios] Lista de comentarios agregados a este caso:  
+\begin{enumerate}
+        \item {\bfseries Walter Vargas (walter@covetel.com.ve)  } - {\bfseries 2011-07-01 19:58:54} \\ Este documento fue sometido a un proceso de DIFF contra el documento CANTV
+Operaciones2007.doc, se analizo que información era útil para agregar al
+documento principal.        \item {\bfseries Lilibeth Ramirez (lilibeth@covetel.com.ve)  } - {\bfseries 2011-07-06 07:30:31} \\ Fue analizado y solo fue utilizada la información importante que fue extraída
+de la comparación hecha anteriormente.    \end{enumerate}
+
+\end{description}
+
+\section{Caso 64: Analizar Documento CANTV Operaciones2007.doc }
+
+\begin{description}
+
+\item[Asunto] Analizar Documento CANTV Operaciones2007.doc\item[DescripciÃ³n] El documento se encuentra en el repositorio cantv-info.git
+
+https://rt.covetel.com.ve/Ticket/Attachment/793/557/CANTV%20Operaciones2007.doc\item[Propietario] lilibeth\item[Horas Trabajadas] 35
+
+\item[Comentarios] Lista de comentarios agregados a este caso:  
+\begin{enumerate}
+        \item {\bfseries Walter Vargas (walter@covetel.com.ve)  } - {\bfseries 2011-07-01 19:54:13} \\ Se realizo una comparación precisa con los otros dos documentos que contienen
+información muy similar a este:
+
+* CANTVOperaciones2005.doc
+* Manual de Operaciones - CANTV-11-2005.doc        \item {\bfseries Lilibeth Ramirez (lilibeth@covetel.com.ve)  } - {\bfseries 2011-07-06 06:55:11} \\ En este documento se trabajo en detalle debido a que se comparo con 2
+documentos más con el mismo contenido pero con fechas diferentes.
+
+El contenido de este documento fue comparado con los archivos NAS_Exchange.ppt,
+Situación actual y análisis de espacio de la Plataforma de Mensajeria
+Corporativa.doc y DescripcionGeneralDelSistemadeMensajeriadeCantv.doc, ya que
+contenian información similar, en algunos casos uno más actualizado que otro.
+
+Se observo que el documento Cantv Operaciones2007.doc, contiene mucha
+información acerca de la forma en la que debe ser operado el servicio Exchange
+Server 2003, referenciando a la Guia de Operaciones de Exchange 2003.    \end{enumerate}
+
+\end{description}
+
+\section{Caso 63: Analizar Documento NAS_EXCHANGE.ppt }
+
+\begin{description}
+
+\item[Asunto] Analizar Documento NAS_EXCHANGE.ppt\item[DescripciÃ³n] El documento se encuentra en el repositorio cantv-info
+
+https://rt.covetel.com.ve/Ticket/Attachment/793/564/NAS_EXCHANGE.ppt\item[Propietario] lilibeth\item[Horas Trabajadas] 6
+
+\item[Comentarios] Lista de comentarios agregados a este caso:  
+\begin{enumerate}
+        \item {\bfseries Walter Vargas (walter@covetel.com.ve)  } - {\bfseries 2011-07-01 19:45:52} \\ Este documento es una presentación en formato de Microsoft Power Point,
+compuesto por 4 láminas que contienen la información de los volumenes lógicos
+utilizados para conformar el almacenamiento de Exchange.
+
+La información del tamaño de algunas LUNs entre las láminas 1, 2 y 3 no
+concuerda con la información de la gráfica de la lámina 4.        \item {\bfseries Lilibeth Ramirez (lilibeth@covetel.com.ve)  } - {\bfseries 2011-07-01 23:29:57} \\ Este documento contiene la información más actualizada acerca de la
+distribución de la NAS del Exchange.
+
+Fue analizado y comparado con la información que se encuentra en el documento
+DescripcionGeneralDelSistemadeMensajeriadeCantv.doc el cual contienen
+información de la NAS pero se encuentra desactualizada.        \item {\bfseries Lilibeth Ramirez (lilibeth@covetel.com.ve)  } - {\bfseries 2011-07-06 07:05:31} \\ Este documento fue comparado con cada uno de los documentos que contenia
+información acerca de la NAS del Exchange y se encontraba desactualizado.
+
+Por ello no fue utilziado para elaborar el documento de analizis del Exchange
+Server 2003    \end{enumerate}
+
+\end{description}
+
+\section{Caso 62: Analizar Documento Matriz funcional exchange (usuarios).xls }
+
+\begin{description}
+
+\item[Asunto] Analizar Documento Matriz funcional exchange (usuarios).xls\item[DescripciÃ³n] El documento se encuentra en el repositorio cantv-info.git
+
+https://rt.covetel.com.ve/Ticket/Attachment/793/563/Matriz%20funcional%20exchange%20%26%2340%3Busuarios%26%2341%3B.xls\item[Propietario] lilibeth\item[Horas Trabajadas] 4
+
+\item[Comentarios] Lista de comentarios agregados a este caso:  
+\begin{enumerate}
+        \item {\bfseries Walter Vargas (walter@covetel.com.ve)  } - {\bfseries 2011-07-01 19:32:25} \\ Este documento es una Hoja de Calculo en Excel que contiene las características
+de la plataforma de Correo actual Exchange, y estas características fueron
+transformadas en requerimientos funcionales.
+
+Es importante conocer si la gente de CANTV.NET o Middleware esta al tanto de
+estos requerimientos.        \item {\bfseries Lilibeth Ramirez (lilibeth@covetel.com.ve)  } - {\bfseries 2011-07-06 07:10:22} \\ Esta información fue utilizada para el documento de analizis del servicio
+Exchange Service 2003    \end{enumerate}
+
+\end{description}
+
+\section{Caso 61: Analizar Documento Matriz funcional (Wins).xls  }
+
+\begin{description}
+
+\item[Asunto] Analizar Documento Matriz funcional (Wins).xls \item[DescripciÃ³n] El documento se encuentra en el repositorio cantv-info en la carpeta Directorio
+Activo.
+
+Tambien se encuentra en la direción:
+
+https://rt.covetel.com.ve/Ticket/Attachment/767/517/Matriz%20funcional%20%26%2340%3BWins%26%2341%3B.xls\item[Propietario] cmaldonado\item[Horas Trabajadas] 1
+
+\item[Comentarios] Lista de comentarios agregados a este caso:  
+\begin{enumerate}
+        \item {\bfseries Carlos Maldonado (cmaldonado@covetel.com.ve)  } - {\bfseries 2011-07-01 17:15:07} \\ El archivo solo contiene la descripción del servicio Wins y Netbios de la plataforma informática de CANTV y su obligatoriedad como funcionalidad migrada dentro de los entregables del proyecto        \item {\bfseries Carlos Maldonado (cmaldonado@covetel.com.ve)  } - {\bfseries 2011-07-06 21:38:50} \\ documento descriptivo sobre los requerimientos para migración de servicios NetBios y WINS    \end{enumerate}
+
+\end{description}
+
+\section{Caso 60: Analizar Documento: LDAP_Matriz funcional (usuarios).xls }
+
+\begin{description}
+
+\item[Asunto] Analizar Documento: LDAP_Matriz funcional (usuarios).xls\item[DescripciÃ³n] El documento se encuentra en la carpeta Directorio Activo en el repositorio
+cantv-info.git
+
+Tambien se encuentra en la dirección:
+
+https://rt.covetel.com.ve/Ticket/Attachment/767/517/Matriz%20funcional%20%26%2340%3BWins%26%2341%3B.xls\item[Propietario] cmaldonado\item[Horas Trabajadas] 1
+
+\item[Comentarios] Lista de comentarios agregados a este caso:  
+\begin{enumerate}
+        \item {\bfseries Carlos Maldonado (cmaldonado@covetel.com.ve)  } - {\bfseries 2011-07-01 17:21:51} \\ el título de este ticket necesita ser cambiado a
+
+LDAP_Matriz funcional (usuarios)
+
+de otra forma sería un duplicado del ticket #61
+
+intenté cambiar el título pero no fue posible
+
+On Thu Jun 30 17:32:05 2011, walter wrote:
+> El documento se encuentra en la carpeta Directorio Activo en el
+> repositorio
+> cantv-info.git
+>
+> Tambien se encuentra en la dirección:
+>
+>
+https://rt.covetel.com.ve/Ticket/Attachment/767/517/Matriz%20funcional%20%26%2340%3BWins%26%2341%3B.xls        \item {\bfseries Walter Vargas (walter@covetel.com.ve)  } - {\bfseries 2011-07-01 23:21:21} \\ El documento para analizar se encuentra en el repositorio cantv-info bajo el
+nombre LDAP_Matriz funcional (usuarios).xls
+
+Tambien se encuentra adjunto a un ticket bajo la dirección:
+
+https://rt.covetel.com.ve/Ticket/Attachment/767/518/LDAP_Matriz%20funcional%20%26%2340%3Busuarios%26%2341%3B.xls        \item {\bfseries Carlos Maldonado (cmaldonado@covetel.com.ve)  } - {\bfseries 2011-07-06 21:38:50} \\ documento con descripción sobre los requerimientos en términos de autentificación de scripts aplicaciones web y aplicaciones nativas, en cuanto a permisos de computadores y usuarios    \end{enumerate}
+
+\end{description}
+
+\section{Caso 59: Analizar Presentación Directorio_Activo_y_Manejo_de_Identidades.ppt }
+
+\begin{description}
+
+\item[Asunto] Analizar Presentación Directorio_Activo_y_Manejo_de_Identidades.ppt\item[DescripciÃ³n] Este archivo se encuentra en el repositorio cantv-info.git bajo la carpeta
+"Directorio Activo".
+
+Tambien se encuentra adjunto al ticket 50 bajo la siguiente dirección:
+
+https://rt.covetel.com.ve/Ticket/Attachment/767/516/Directorio_Activo_y_Manejo_de_Identidades.ppt\item[Propietario] cmaldonado\item[Horas Trabajadas] 2
+
+\item[Comentarios] Lista de comentarios agregados a este caso:  
+\begin{enumerate}
+        \item {\bfseries  } - {\bfseries } \\         \item {\bfseries  } - {\bfseries } \\         \item {\bfseries  } - {\bfseries } \\         \item {\bfseries  } - {\bfseries } \\     \end{enumerate}
+
+\end{description}
+
+\section{Caso 58: Analizar Documento DirectorioActivoCANTV2003.ppt  }
+
+\begin{description}
+
+\item[Asunto] Analizar Documento DirectorioActivoCANTV2003.ppt \item[DescripciÃ³n] \item[Propietario] cmaldonado\item[Horas Trabajadas] 3
+
+\item[Comentarios] Lista de comentarios agregados a este caso:  
+\begin{enumerate}
+        \item {\bfseries Carlos Maldonado (cmaldonado@covetel.com.ve)  } - {\bfseries 2011-07-01 00:51:54} \\ la revisión de este documento requiere haber leído el Capítulo Dos de "Active Directory" de O'Reilly, llamado "
+Active Directory Fundamentals"        \item {\bfseries Carlos Maldonado (cmaldonado@covetel.com.ve)  } - {\bfseries 2011-07-01 17:15:08} \\ el documento contiene la estructura general de los roles y servicios Active Directory instalados por servidor en CANTV
+
+la terminología de roles empleada es errónea y el nuevo documento contendrá las correcciones pertinentes
+
+información miscelánea sobre procedimientos para ver cuentas activas e inactivas en el dominio
+
+descripción superficial de la entidad usuario en el esquema del Directorio Activo        \item {\bfseries Carlos Maldonado (cmaldonado@covetel.com.ve)  } - {\bfseries 2011-07-01 20:41:53} \\ Diapositiva 2
+
+Alfha03 (typo)
+
+¿Alguien puede verificar si este servidor en realidad tiene 3.6 GB de RAM?
+
+No tiene sentido para mi, probablemente sea un error de tipeo, puede que tenga
+3 o 6 GB de RAM, o 3.5GB, pero 3.6 es altamente improbable
+
+CM
+
+On Fri Jul 01 13:15:08 2011, cmaldonado wrote:
+> el documento contiene la estructura general de los roles y servicios
+> Active Directory instalados por servidor en CANTV
+>
+> la terminología
+> de roles empleada es errónea y el nuevo documento contendrá las
+> correcciones pertinentes
+>
+> información miscelánea sobre
+> procedimientos para ver cuentas activas e inactivas en el dominio
+> descripción superficial de la entidad usuario en el esquema del
+> Directorio Activo        \item {\bfseries Carlos Maldonado (cmaldonado@covetel.com.ve)  } - {\bfseries 2011-07-06 22:30:28} \\ leído el archivo y analizada la información que debe ser transcrita al núevo documento de análisis en el ticket #57        \item {\bfseries Walter Vargas (walter@covetel.com.ve)  } - {\bfseries 2011-06-30 21:22:56} \\ Este documento se encuentra en el repositorio cantv-info.git, bajo la carpeta
+Directorio Activo,
+tambien se encuentra adjunto en el ticket #50 bajo el siguiente enlace:
+
+https://rt.covetel.com.ve/Ticket/Attachment/767/514/DirectorioActivoCANTV2003.ppt    \end{enumerate}
+
+\end{description}
+
+\section{Caso 57: Crear Documento Análisis de Infraestructura de Directorio Activo doc_003 }
+
+\begin{description}
+
+\item[Asunto] Crear Documento Análisis de Infraestructura de Directorio Activo doc_003\item[DescripciÃ³n] Título del documento: Infraestructura de Directorio Activo CANTV
+Subtitulo: Análisis Preliminar de la Plataforma Actual
+Identificador: doc_003
+Repositorio: cantv-doc.git
+Ruta: Documentos/doc_003/
+Fuentes: Documentos/doc_003/src/
+
+Documentos para Analizar:
+* DirectorioActivoCANTV2003.ppt * Directorio_Activo_y_Manejo_de_Identidades.ppt
+* Matriz funcional (Wins).xls * LDAP_Matriz funcional (usuarios).xls
+
+Los documentos a analizar se encuentran en el repositorio cantv-info.git, en la
+carpeta "Directorio Activo"\item[Propietario] cmaldonado\item[Horas Trabajadas] 16
+
+\item[Comentarios] Lista de comentarios agregados a este caso:  
+\begin{enumerate}
+        \item {\bfseries Walter Vargas (walter@covetel.com.ve)  } - {\bfseries 2011-07-06 12:37:54} \\ Se adjunta el documento que contiene el conjunto de cambios hasta la fecha para
+la elaboración de este documento.        \item {\bfseries Carlos Maldonado (cmaldonado@covetel.com.ve)  } - {\bfseries 2011-07-06 21:42:05} \\ Contentivo de la información analizada y extraída de la documentación del Directorio Activo proveída por CANTV        \item {\bfseries Carlos Maldonado (cmaldonado@covetel.com.ve)  } - {\bfseries 2011-07-06 22:11:45} \\ Versión preliminar terminada para su revisión
+
+On Wed Jul 06 17:42:05 2011, cmaldonado wrote:
+> Contentivo de la información analizada y extraída de la documentación
+> del Directorio Activo proveída por CANTV        \item {\bfseries Carlos Maldonado (cmaldonado@covetel.com.ve)  } - {\bfseries 2011-07-06 22:32:49} \\ documento creado con toda la información proveída por CANTV, en referencia a estructura del Directorio Activo, Tareas Documentadas y matrices funcionales de los servicios a migrar en el área de red y usuarios        \item {\bfseries Walter Vargas (walter@covetel.com.ve)  } - {\bfseries 2011-06-30 21:17:30} \\ Los diagramas correspondientes al Directorio Activo fueron migrados al formato
+DIA por Carlos Paredes y se encuentran en:
+
+https://rt.covetel.com.ve/Ticket/Display.html?id=21#txn-423    \end{enumerate}
+
+\end{description}
+
+\section{Caso 55: Documento Análisis de Plataforma de Correo Corporativo Exchange doc_002 }
+
+\begin{description}
+
+\item[Asunto] Documento Análisis de Plataforma de Correo Corporativo Exchange doc_002\item[DescripciÃ³n] Escribir un documento formal que contenga el resultado del análisis de la
+documentación de la plataforma de correo corporativo Exchange 2003.
+
+Identificador
+
+doc_002
+
+Título
+
+Infraestructura de Correo Corporativo Exchange Server 2003
+
+Sub Título
+
+Análisis Preliminar de la Plataforma Actual\item[Propietario] lilibeth\item[Horas Trabajadas] 45
+
+\item[Comentarios] Lista de comentarios agregados a este caso:  
+\begin{enumerate}
+        \item {\bfseries Walter Vargas (walter@covetel.com.ve)  } - {\bfseries 2011-07-01 19:20:16} \\ Se adjunta el informe de actividades con su respectivo diff para este
+documento.        \item {\bfseries Lilibeth Ramirez (lilibeth@covetel.com.ve)  } - {\bfseries 2011-07-06 06:59:13} \\ El documento fue elaborado y se encuentra en el repositorio cantv-doc.
+
+Adjunto el mismo al cierre de este ticket        \item {\bfseries Walter Vargas (walter@covetel.com.ve)  } - {\bfseries 2011-07-06 12:34:12} \\ Se adjunta el conjunto de cambios necesarios para la elaboración de este
+documento.        \item {\bfseries Walter Vargas (walter@covetel.com.ve)  } - {\bfseries 2011-07-06 12:42:53} \\ Se adjunta el detalle de los ficheros involucrados en el conjunto de cambios.    \end{enumerate}
+
+\end{description}
+
+\section{Caso 52: Analizar Documentos de Exchange 2003 }
+
+\begin{description}
+
+\item[Asunto] Analizar Documentos de Exchange 2003\item[DescripciÃ³n] Se requiere analizar los documentos respectivos al Exchange 2003 y
+posteriormente
+elaborar documento sobre el servicio.
+
+-- 
+T.S.U. Lilibeth J. Ramírez M.
+Dpto. Administrativo
+Documentación Técnica
+COVETEL, R.S.
+San Cristóbal . Estado Táchira
+0416-5023756
+sip:102@asterisk.covetel.com.ve <sip%3A103@asterisk.covetel.com.ve>\item[Propietario] lilibeth\item[Horas Trabajadas] 0
+
+\item[Comentarios] Lista de comentarios agregados a este caso:  
+\begin{enumerate}
+        \item {\bfseries  } - {\bfseries } \\         \item {\bfseries  } - {\bfseries } \\         \item {\bfseries  } - {\bfseries } \\         \item {\bfseries  } - {\bfseries } \\     \end{enumerate}
+
+\end{description}
+
+\section{Caso 50: Analizar Documentos Directorio Activo }
+
+\begin{description}
+
+\item[Asunto] Analizar Documentos Directorio Activo\item[DescripciÃ³n] Se requiere analizar los documentos respectivos sobre el Directorio Actico y
+posteriormente elaborar documento\item[Propietario] cmaldonado\item[Horas Trabajadas] 2
+
+\item[Comentarios] Lista de comentarios agregados a este caso:  
+\begin{enumerate}
+        \item {\bfseries Carlos Maldonado (cmaldonado@covetel.com.ve)  } - {\bfseries 2011-07-06 22:27:58} \\ el documento Diseno.y.Operacion.Solucion.OpenLDAP.pdf
+
+no corresponde a los documentos que deben ser analizados
+
+por lo tanto este documento debe ser removido de la lista de adjuntos
+
+CM
+
+
+On Wed Jun 29 20:21:41 2011, cparedes wrote:
+<br />&gt; Se requiere analizar los documentos respectivos sobre el Directorio
+Actico y
+<br />&gt; posteriormente elaborar documento
+<br />
+<br />
+<br />        \item {\bfseries Carlos Maldonado (cmaldonado@covetel.com.ve)  } - {\bfseries 2011-07-06 22:30:27} \\ documentos analizados, novedades reportadas en el ticket correspondiente a cada documento    \end{enumerate}
+
+\end{description}
+
+\section{Caso 49: Analizar Documentos sobre DNS }
+
+\begin{description}
+
+\item[Asunto] Analizar Documentos sobre DNS\item[DescripciÃ³n] Se requiere analizar los documentos respectivos al DNS y posteriormente
+elaborar documento sobre el servicio.\item[Propietario] cparedes\item[Horas Trabajadas] 6
+
+\item[Comentarios] Lista de comentarios agregados a este caso:  
+\begin{enumerate}
+        \item {\bfseries  } - {\bfseries } \\         \item {\bfseries  } - {\bfseries } \\         \item {\bfseries  } - {\bfseries } \\         \item {\bfseries  } - {\bfseries } \\     \end{enumerate}
+
+\end{description}
+
+\section{Caso 47: Analizar Información relacionada al correo CANTV.NET }
+
+\begin{description}
+
+\item[Asunto] Analizar Información relacionada al correo CANTV.NET\item[DescripciÃ³n] Se obtuvo la siguiente información via correo electrónico:
+
+1.- Las capas postman-mail y postman-relay fueron unificadas en una
+sola. Las capas mail y relay envían los correos con destino @cantv.net
+(y cuentas virtuales) hacia postman (postman.ric2.cantv.net) y ahi son
+entregados a los buzones.
+
+2.- La capa postman no hace las consultas ya vía DNS-D (de hecho no
+existe esa capa de dns-d para correo). Las consultas son ahora vía LDAP
+hacia la capa "ldap.ric2.cantv.net".
+
+3.- Las capas POP e IMAP fueron unificadas y ahora se llaman POP-IMAP.
+Pop-imap consulta la capa LDAP basada en OpenLDAP (ldap.ric2.cantv.net)
+para todos los permisos de usuario.
+
+4.- No aparece en estos flujos la capa AMAVIS/CLAMAV (la capa
+AntiSPAM/AntiVIRUS). Las capas MAIL y RELAY validan cada correo entrante
+por varios métodos (dnsbl, milters para SPF, controles adicionales vía
+LDAP hacia ldap.ric2.cantv.net y finalmente por virus y contenido hacia
+la capa AntiSPAM amavis/clamav "amavis.ric2.cantv.net").
+
+5.- XMAIL (la capa front-end de correo web) fue sustituida por NITIDO-WEB.
+
+6.- La capa LDAP fue sustituida por OpenLDAP (ldap.ric2.cantv.net).
+
+7.- El balanceador actual es el CISCO ACE y todas las capas están
+balanceadas ahi !.
+
+8.- La comunicación entre capas se hace por la red RIC2, la comunicación
+entre POP-IMAP y POSTMAN hacia los filers de buzones se hace por la red
+RAL2. Las labores de monitoreo y consultas DNS se hacen por la res de
+administración "MGMT" y finalmente el servicio se da por la red pública
+de servicio "SVC".
+
+9.- Estamos dando servicios encriptados para todas las capas front-end.
+Específicamente:
+
+MAIL: vía tls sobre puerto 25 y ssl sobre puerto 465.
+RELAY: vía tls sobre puerto 25.
+POP: vía tls sobre puerto 110 y ssl sobre 995.
+
+El servicio IMAP solo se da internamente (a la red corporativa de cantv).
+El servicio MAIL está abierto solamente (puertos 25 y 465) a las redes
+de cantv (acceso, corporativos, dedicados, etc). Para el resto del
+planeta está cerrada (vía iptables en cada servidor).
+El servicio POP está abierto a todo el mundo.
+El servicio de correo web está abierto a todo el mundo.
+
+Junto con los documentos viejos (en revisión) te anexo el diagrama
+actualizado de la plataforma de correo del ISP
+(mail.platform.mayo.02.2011.pdf). Ese si es el que mantenemos
+religiosamente actualizado y tiene todo el mapa actual de la plataforma
+de correo del ISP y su relación entre capas.
+
+Recuerda que los documentos de flujos están en "revisión" y el único
+documento actualizado el el diagrama de la plataforma de correo.
+
+Atentamente,
+
+Reynaldo R. Martinez P.
+Consultor de Operaciones TI Centralizadas
+GGTO - GOC Gerencia Operaciones TI Centralizadas
+Coordinación Soporte Middleware (antigua gotic-ccun)
+Telf.: +58 (212) 263-4526
+e-mail: rmarti05@cantv.com.ve\item[Propietario] walter\item[Horas Trabajadas] 0
+
+\item[Comentarios] Lista de comentarios agregados a este caso:  
+\begin{enumerate}
+        \item {\bfseries Lilibeth Ramirez (lilibeth@covetel.com.ve)  } - {\bfseries 2011-07-06 07:38:23} \\ Esta actividad fue culminada con éxito        \item {\bfseries Walter Vargas (walter@covetel.com.ve)  } - {\bfseries 2011-07-07 07:53:50} \\ Hubo un error al cerrar este ticket, aun falta analizar el material de
+CANTV.NET    \end{enumerate}
+
+\end{description}
+
+\section{Caso 42: Reunión 30 Junio 2011 Servicio DHCP }
+
+\begin{description}
+
+\item[Asunto] Reunión 30 Junio 2011 Servicio DHCP\item[DescripciÃ³n] Título: Mesa Trabajo (procesos, técnica) Servicio DHCP
+
+Dirección: Los Cortijos 2 Piso 3 Sala 2 (Sala pequeña)
+
+Cuando: Jue 30 Jun 2011 08:00 – 11:45
+
+Organizador: jblond01@cantv.com.ve
+
+Descripción:
+
+Mesa para levantamiento de información tecnica y de procesos asociados 
+al servicio DHCP.
+  Agenda:
+  8:00 am - 9:00 am Levantamiento de Procesos Asociados
+  9:00 am - 11:45 am Levantamiento de Procesos Técnicos
+
+Saludos Cordiales
+
+-- 
+
+Jorge A Blondell C
+Especialista de Proyectos
+Proyecto Migración Escritorio Corporativo a Software Libre
+Gerencia de Programa Soluciones de TI
+Gerencia General de Proyectos Mayores
+Centro de Negocios Cantv Los Cortijos, Edificio 2, Piso 3
+Movil : 58 - 416 - 6185295
+Ofic:   58 - 212 - 5005286
+\item[Propietario] juan\item[Horas Trabajadas] 2
+
+\item[Comentarios] Lista de comentarios agregados a este caso:  
+\begin{enumerate}
+        \item {\bfseries Walter Vargas (walter@covetel.com.ve)  } - {\bfseries 2011-07-01 20:20:50} \\ La reunión se realizo satisfactoriamente, el recurso asignado por Covetel Juan
+Mesa estuvo a las 8:15 en las instalaciones y salió a las 10:15.
+
+Participantes:
+* Lidia Briceño, GGPM/GO Proyecto, lbrice@cantv.com.ve, 02125000935
+* Dino Gaspero, GOTID/RedCorpo, dgaspero@cantv.com.ve, 02125005670
+* Franklin Araujo, COR/PAP, farauj01@cantv.com.ve, 02125006870
+* Jorge Blondell, GOPM, jblonde01@cantv.com.ve, 02125005286
+* Roberto de Oliveira, GGPM, rdeoli01@cantv.com.ve
+* Juan Mesa, Covetel, juan@covetel.com.ve        \item {\bfseries Walter Vargas (walter@covetel.com.ve)  } - {\bfseries 2011-07-07 07:41:24} \\ Detalles de la reunion enviados por Juan Mesa:
+
+Motivo de la reunión: El motivo principal de la reunión era la revisión de como
+se lleva el manejo del DHCP en la organización. Comentarios: * Se hace una
+breve explicación de como se maneja el servicio DHCP. * Se indica que la
+gerencia encargada de llevar el DHCP solo usa las funciones básicas del DHCP de
+Windows incluso no manejan características "avanzadas" del DHCP como la
+creación o asignación de nuevas opciones de DHCP. * La unidad encargada del
+manejo del DHCP indica que desea una interfaz de tipo GUI para el manejo del
+nuevo DHCP, no quieren manipular archivos de configuración. * Existen 2
+servidores en cluster para el manejo del DHCP de toda la organización, los
+mismos están replicados, no se tiene información sobre como está configurado el
+cluster Activo/Pasivo o Activo/Activo. * Los logs del servidor DHCP son
+llevados por hosting windows. * Solo en casos especiales se hacen
+configuraciones "avanzadas" sobre los tiempos en las leases del DHCP para
+algunos scope. * No existen perfiles de usuario para el manejo del DHCP, los
+encargados del manejo del DHCP se conectan al mismo vía escritorio remoto y
+tienen acceso total a las configuraciones del servicio. * No se logra hacer una
+demostración debido a la falta de conectividad en la sala de reunión, pero se
+indica que no hay ningún manejo adicional a lo que brinda el DHCP de Windows,
+Juan Mesa de COVETEL indica que sabe como se configura y administra un servidor
+DHCP en Windows. * Posterior a la reunión Juan Mesa, Roberto De Oliveira y
+Jorge Blondell sostienen una pequeña conversación y se llega a la conclusión de
+que existe la posibilidad de que esta información y requerimientos no sean de
+mayor importancia debido que "Middleware" podría llevar este servicio y ellos
+lo llevaran a su manera, osea, editando los archivos de configuración, quizás
+el único cambio será la adición de CFEngine para el manejo del servicio.    \end{enumerate}
+
+\end{description}
+
+\section{Caso 24: Reunión: Piso 5 Edificio NEA, Sala de Auditoria, Ala Norte }
+
+\begin{description}
+
+\item[Asunto] Reunión: Piso 5 Edificio NEA, Sala de Auditoria, Ala Norte\item[DescripciÃ³n] Inicio de actividades relacionada a la migración de los servicios de apoyo al
+escritorio corporativo (DNS, DHCP, Correo y Colaboración, Directorio,
+autenticación y impresión). La reunión tiene como objetivo realizar una
+presentación del alcance del proyecto y establecer participantes, responsables
+con la unidades encargadas de la continuidad operativa de estos servicios para
+el inicio del PAP de la fase 2 del proyecto Migración del Escritorio
+Corporativo a Software Libre.\item[Propietario] juan\item[Horas Trabajadas] 2
+
+\item[Comentarios] Lista de comentarios agregados a este caso:  
+\begin{enumerate}
+        \item {\bfseries  } - {\bfseries } \\         \item {\bfseries  } - {\bfseries } \\         \item {\bfseries  } - {\bfseries } \\         \item {\bfseries  } - {\bfseries } \\     \end{enumerate}
+
+\end{description}
+
+\section{Caso 21: Migrar los diagramas construidos en formato de Microsoft Visio a DIA }
+
+\begin{description}
+
+\item[Asunto] Migrar los diagramas construidos en formato de Microsoft Visio a DIA\item[DescripciÃ³n] Se requiere la migración de los siguientes archivos en formato de Microsoft
+Visio a DIA:
+
+   - AD OUs-Draw entire Active Directory Structure.vsd
+   - Directorio Activo.vsd
+
+Se adjuntan ambos archivos para su respectiva conversión
+
+-- 
+T.S.U. Lilibeth J. Ramírez M.
+Dpto. Administrativo
+Documentación Técnica
+COVETEL, R.S.
+San Cristóbal . Estado Táchira
+0416-5023756
+sip:102@asterisk.covetel.com.ve <sip%3A103@asterisk.covetel.com.ve>\item[Propietario] cparedes\item[Horas Trabajadas] 5
+
+\item[Comentarios] Lista de comentarios agregados a este caso:  
+\begin{enumerate}
+        \item {\bfseries Carlos Paredes (cparedes@covetel.com.ve)  } - {\bfseries 2011-07-01 02:50:47} \\ Correccion de Diagrama de Directorio Activo        \item {\bfseries Carlos Maldonado (cmaldonado@covetel.com.ve)  } - {\bfseries 2011-07-06 22:14:13} \\ Publicando nuevamente el png con más tamaño para evitar su distorsión ilegible
+en el documento
+
+corrección de unas comillas dobles por typo de origen, donde debe ir un número
+dos
+
+corrección de la palabra Domain en vez de Domaind, typo en el documento
+original de CANTV
+
+correcciones realizadas en el archivo fuente .dia y adjuntado
+
+CM
+
+On Mon Jun 13 21:50:55 2011, lilibeth wrote:
+> Se requiere la migración de los siguientes archivos en formato de Microsoft
+> Visio a DIA:
+>
+> - AD OUs-Draw entire Active Directory Structure.vsd
+> - Directorio Activo.vsd
+>
+> Se adjuntan ambos archivos para su respectiva conversión
+>        \item {\bfseries Carlos Paredes (cparedes@covetel.com.ve)  } - {\bfseries 2011-06-15 19:00:56} \\ Conversión de .vsd a .png        \item {\bfseries Carlos Paredes (cparedes@covetel.com.ve)  } - {\bfseries 2011-06-17 16:35:33} \\ Adjunto archicos . dia y .png de los diagramas terminados    \end{enumerate}
+
+\end{description}

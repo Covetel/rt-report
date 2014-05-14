@@ -1,0 +1,137 @@
+Z<tickets>
+
+
+=head1 199: Modificación y Adaptación del Sistema Peribeco al CNTI.
+
+
+B<Responsable: > Walter Vargas (walter@covetel.com.ve) 
+
+C< >
+
+B<Horas Trabajadas: > 60
+
+=head2 Asunto 
+
+Modificación y Adaptación del Sistema Peribeco al CNTI.
+
+=head2 Descripción
+
+Modificación y Adaptación del Sistema de Gestión de Usuarios y Grupos LDAP
+(Peribeco) para el CNTI 
+
+ 
+
+ 
+
+
+=head1 198: Crear Manual de Uso de Peribeco
+
+
+B<Responsable: > Carlos Paredes (cparedes@covetel.com.ve) 
+
+C< >
+
+B<Horas Trabajadas: > 4
+
+=head2 Asunto 
+
+Crear Manual de Uso de Peribeco
+
+=head2 Descripción
+
+Se requiere crear el manual de uso de peribeco. 
+
+ 
+
+ 
+
+
+=head1 193: Implementar LDAP CNTI
+
+
+B<Responsable: > Walter Vargas (walter@covetel.com.ve) 
+
+C< >
+
+B<Horas Trabajadas: > 1
+
+=head2 Asunto 
+
+Implementar LDAP CNTI
+
+=head2 Descripción
+
+Implementar OpenLDAP con el árbol adjunto.  
+
+ 
+
+
+
+=head2 Adjuntos
+
+=over
+
+
+
+=item export(1).ldif
+
+
+
+ 
+
+=back 
+
+ 
+
+
+=head1 192: Configurar Nginx + Plack + Peribeco
+
+
+B<Responsable: > Carlos Paredes (cparedes@covetel.com.ve) 
+
+C< >
+
+B<Horas Trabajadas: > 14
+
+=head2 Asunto 
+
+Configurar Nginx + Plack + Peribeco
+
+=head2 Descripción
+
+Implementar Peribeco sobre Nginx con Plack/PSGI.  
+
+ 
+
+ 
+
+
+=head1 190: Setup de la maquina virtual peribeco.cnti.gob.ve
+
+
+B<Responsable: > Carlos Paredes (cparedes@covetel.com.ve) 
+
+C< >
+
+B<Horas Trabajadas: > 1
+
+=head2 Asunto 
+
+Setup de la maquina virtual peribeco.cnti.gob.ve
+
+=head2 Descripción
+
+Se debe crear una máquina virtual para instalar Peribeco. 
+
+Datos: 
+
+ FQDN: peribeco.cnti.gob.ve
+ IP: 10.8.233.1
+ RAM: 512 Mb
+ Disco: 4 Gb 
+
+ 
+
+ 
+
+ 

@@ -1,0 +1,24 @@
+[% FOREACH ticket IN tickets %]
+
+\section{Caso [% ticket.id %]: [% ticket.base.subject %] }
+
+\begin{description}
+
+\item[Asunto] [% ticket.base.subject %]
+\item[Descripción] [% ticket.body.content %] 
+\item[Propietario] [% ticket.base.owner %]
+\item[Horas Trabajadas] [% ticket.horas %]
+
+
+[% IF ticket.comments %]
+\item[Comentarios] Lista de comentarios agregados a este caso:  
+\begin{enumerate}
+    [% FOREACH comentario IN ticket.comments %]
+    \item {\bfseries [% comentario.creator %] } - {\bfseries [% comentario.date
+    %]} \\ [% comentario.content %]
+    [% END %]
+\end{enumerate}
+[% END %]
+
+\end{description}
+[% END %]
